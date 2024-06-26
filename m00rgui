@@ -1,0 +1,2095 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local _2baseplate = Instance.new("TextButton")
+local WALKSPEED = Instance.new("TextButton")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local decalspam = Instance.new("TextButton")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local destroyall = Instance.new("TextButton")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local explode = Instance.new("TextButton")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local fireall = Instance.new("TextButton")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local m00rkidddecal = Instance.new("TextButton")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local particles = Instance.new("TextButton")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local rainbow = Instance.new("TextButton")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local rainbowsb00ls = Instance.new("TextButton")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local randomcolors = Instance.new("TextButton")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local skybox = Instance.new("TextButton")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+local tallall = Instance.new("TextButton")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+local zombie = Instance.new("TextButton")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local randomexplode = Instance.new("TextButton")
+local _666 = Instance.new("TextButton")
+local M00RKIDDEXPLOSIONMAFAKA = Instance.new("TextButton")
+local POOPALLTROLL = Instance.new("TextButton")
+local theme = Instance.new("TextButton")
+local funnisound = Instance.new("TextButton")
+local STOPMUSIC = Instance.new("TextButton")
+local Clearall = Instance.new("TextButton")
+local RONALDO = Instance.new("TextButton")
+local skybox2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+local DiscoLIghts = Instance.new("TextButton")
+local GiantMode = Instance.new("TextButton")
+local caipirina = Instance.new("TextButton")
+local jumpscare2 = Instance.new("TextButton")
+local jumpscare = Instance.new("TextButton")
+local decalspam_2 = Instance.new("TextButton")
+local Playersdecal = Instance.new("TextButton")
+local flipworkspace = Instance.new("TextButton")
+local upsidedowncamera = Instance.new("TextButton")
+local freezeall = Instance.new("TextButton")
+local KICKALL = Instance.new("TextButton")
+local Disco = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.700468004, 0, 0.178921565, 0)
+ImageButton.Size = UDim2.new(0.299531966, 0, 0.759803951, 0)
+ImageButton.Image = "http://www.roblox.com/asset/?id=18213997018"
+
+_2baseplate.Name = "2 baseplate"
+_2baseplate.Parent = ImageButton
+_2baseplate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2baseplate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2baseplate.BorderSizePixel = 0
+_2baseplate.Position = UDim2.new(0.19692041, 0, 0.186110273, 0)
+_2baseplate.Size = UDim2.new(0.173499763, 0, 0.0564694852, 0)
+_2baseplate.Font = Enum.Font.SourceSans
+_2baseplate.Text = "2 baseplate"
+_2baseplate.TextColor3 = Color3.fromRGB(0, 0, 0)
+_2baseplate.TextScaled = true
+_2baseplate.TextSize = 14.000
+_2baseplate.TextWrapped = true
+
+WALKSPEED.Name = "WALKSPEED"
+WALKSPEED.Parent = ImageButton
+WALKSPEED.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WALKSPEED.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WALKSPEED.BorderSizePixel = 0
+WALKSPEED.Position = UDim2.new(0.0182533283, 0, 0.00991102681, 0)
+WALKSPEED.Size = UDim2.new(0.128414556, 0, 0.0707343146, 0)
+WALKSPEED.Font = Enum.Font.SourceSans
+WALKSPEED.Text = "walkspeed"
+WALKSPEED.TextColor3 = Color3.fromRGB(0, 0, 0)
+WALKSPEED.TextScaled = true
+WALKSPEED.TextSize = 14.000
+WALKSPEED.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = WALKSPEED
+UIAspectRatioConstraint.AspectRatio = 1.271
+
+UITextSizeConstraint.Parent = WALKSPEED
+UITextSizeConstraint.MaxTextSize = 48
+
+decalspam.Name = "decal spam"
+decalspam.Parent = ImageButton
+decalspam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+decalspam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+decalspam.BorderSizePixel = 0
+decalspam.Position = UDim2.new(0.00657081651, 0, 0.713688433, 0)
+decalspam.Size = UDim2.new(0.140096515, 0, 0.0612408482, 0)
+decalspam.Font = Enum.Font.SourceSans
+decalspam.Text = "decal spam"
+decalspam.TextColor3 = Color3.fromRGB(0, 0, 0)
+decalspam.TextScaled = true
+decalspam.TextSize = 14.000
+decalspam.TextWrapped = true
+
+UIAspectRatioConstraint_2.Parent = decalspam
+UIAspectRatioConstraint_2.AspectRatio = 1.500
+
+UITextSizeConstraint_2.Parent = decalspam
+UITextSizeConstraint_2.MaxTextSize = 44
+
+destroyall.Name = "destroy all"
+destroyall.Parent = ImageButton
+destroyall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+destroyall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+destroyall.BorderSizePixel = 0
+destroyall.Position = UDim2.new(0.162456214, 0, 0.0132852374, 0)
+destroyall.Size = UDim2.new(0.130108476, 0, 0.166526407, 0)
+destroyall.Font = Enum.Font.SourceSans
+destroyall.Text = "destroy all"
+destroyall.TextColor3 = Color3.fromRGB(0, 0, 0)
+destroyall.TextScaled = true
+destroyall.TextSize = 14.000
+destroyall.TextWrapped = true
+
+UIAspectRatioConstraint_3.Parent = destroyall
+UIAspectRatioConstraint_3.AspectRatio = 1.100
+
+UITextSizeConstraint_3.Parent = destroyall
+UITextSizeConstraint_3.MaxTextSize = 50
+
+explode.Name = "explode"
+explode.Parent = ImageButton
+explode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+explode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+explode.BorderSizePixel = 0
+explode.Position = UDim2.new(0, 0, 0.532894731, 0)
+explode.Size = UDim2.new(0.146667734, 0, 0.143212706, 0)
+explode.Font = Enum.Font.SourceSans
+explode.Text = "explode all"
+explode.TextColor3 = Color3.fromRGB(0, 0, 0)
+explode.TextScaled = true
+explode.TextSize = 14.000
+explode.TextWrapped = true
+
+UIAspectRatioConstraint_4.Parent = explode
+UIAspectRatioConstraint_4.AspectRatio = 1.442
+
+UITextSizeConstraint_4.Parent = explode
+UITextSizeConstraint_4.MaxTextSize = 42
+
+fireall.Name = "fire all"
+fireall.Parent = ImageButton
+fireall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fireall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fireall.BorderSizePixel = 0
+fireall.Position = UDim2.new(0, 0, 0.0873301849, 0)
+fireall.Size = UDim2.new(0.146667734, 0, 0.15986535, 0)
+fireall.Font = Enum.Font.SourceSans
+fireall.Text = "fire all"
+fireall.TextColor3 = Color3.fromRGB(0, 0, 0)
+fireall.TextScaled = true
+fireall.TextSize = 14.000
+fireall.TextWrapped = true
+
+UIAspectRatioConstraint_5.Parent = fireall
+UIAspectRatioConstraint_5.AspectRatio = 1.292
+
+UITextSizeConstraint_5.Parent = fireall
+UITextSizeConstraint_5.MaxTextSize = 28
+
+m00rkidddecal.Name = "m00rkidd decal"
+m00rkidddecal.Parent = ImageButton
+m00rkidddecal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+m00rkidddecal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+m00rkidddecal.BorderSizePixel = 0
+m00rkidddecal.Position = UDim2.new(-0.00184949255, 0, 0.187330186, 0)
+m00rkidddecal.Size = UDim2.new(0.165400982, 0, 0.0703272521, 0)
+m00rkidddecal.Font = Enum.Font.SourceSans
+m00rkidddecal.Text = "m00rkidd decal"
+m00rkidddecal.TextColor3 = Color3.fromRGB(0, 0, 0)
+m00rkidddecal.TextScaled = true
+m00rkidddecal.TextSize = 14.000
+m00rkidddecal.TextWrapped = true
+
+UIAspectRatioConstraint_6.Parent = m00rkidddecal
+UIAspectRatioConstraint_6.AspectRatio = 1.854
+
+UITextSizeConstraint_6.Parent = m00rkidddecal
+UITextSizeConstraint_6.MaxTextSize = 48
+
+particles.Name = "particles"
+particles.Parent = ImageButton
+particles.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+particles.BorderColor3 = Color3.fromRGB(0, 0, 0)
+particles.BorderSizePixel = 0
+particles.Position = UDim2.new(-0.000292142242, 0, 0.266786933, 0)
+particles.Size = UDim2.new(0.123011649, 0, 0.156534821, 0)
+particles.Font = Enum.Font.SourceSans
+particles.Text = "particles"
+particles.TextColor3 = Color3.fromRGB(0, 0, 0)
+particles.TextScaled = true
+particles.TextSize = 14.000
+particles.TextWrapped = true
+
+UIAspectRatioConstraint_7.Parent = particles
+UIAspectRatioConstraint_7.AspectRatio = 1.106
+
+UITextSizeConstraint_7.Parent = particles
+UITextSizeConstraint_7.MaxTextSize = 46
+
+rainbow.Name = "rainbow"
+rainbow.Parent = ImageButton
+rainbow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rainbow.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rainbow.BorderSizePixel = 0
+rainbow.Position = UDim2.new(-0.00435638474, 0, 0.361651123, 0)
+rainbow.Size = UDim2.new(0.151552632, 0, 0.0673969388, 0)
+rainbow.Font = Enum.Font.SourceSans
+rainbow.Text = "rainbow triangles"
+rainbow.TextColor3 = Color3.fromRGB(0, 0, 0)
+rainbow.TextScaled = true
+rainbow.TextSize = 14.000
+rainbow.TextWrapped = true
+
+UIAspectRatioConstraint_8.Parent = rainbow
+UIAspectRatioConstraint_8.AspectRatio = 1.913
+
+UITextSizeConstraint_8.Parent = rainbow
+UITextSizeConstraint_8.MaxTextSize = 46
+
+rainbowsb00ls.Name = "rainbows b00ls"
+rainbowsb00ls.Parent = ImageButton
+rainbowsb00ls.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rainbowsb00ls.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rainbowsb00ls.BorderSizePixel = 0
+rainbowsb00ls.Position = UDim2.new(-0.00233650231, 0, 0.445946485, 0)
+rainbowsb00ls.Size = UDim2.new(0.149004236, 0, 0.065931797, 0)
+rainbowsb00ls.Font = Enum.Font.SourceSans
+rainbowsb00ls.Text = "rainbows b00ls"
+rainbowsb00ls.TextColor3 = Color3.fromRGB(0, 0, 0)
+rainbowsb00ls.TextScaled = true
+rainbowsb00ls.TextSize = 14.000
+rainbowsb00ls.TextWrapped = true
+
+UIAspectRatioConstraint_9.Parent = rainbowsb00ls
+UIAspectRatioConstraint_9.AspectRatio = 1.733
+
+UITextSizeConstraint_9.Parent = rainbowsb00ls
+UITextSizeConstraint_9.MaxTextSize = 44
+
+randomcolors.Name = "random colors"
+randomcolors.Parent = ImageButton
+randomcolors.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+randomcolors.BorderColor3 = Color3.fromRGB(0, 0, 0)
+randomcolors.BorderSizePixel = 0
+randomcolors.Position = UDim2.new(-0.0014845531, 0, 0.873217404, 0)
+randomcolors.Size = UDim2.new(0.165036052, 0, 0.0630014986, 0)
+randomcolors.Font = Enum.Font.SourceSans
+randomcolors.Text = "random colors"
+randomcolors.TextColor3 = Color3.fromRGB(0, 0, 0)
+randomcolors.TextScaled = true
+randomcolors.TextSize = 14.000
+randomcolors.TextWrapped = true
+
+UIAspectRatioConstraint_10.Parent = randomcolors
+UIAspectRatioConstraint_10.AspectRatio = 1.884
+
+UITextSizeConstraint_10.Parent = randomcolors
+UITextSizeConstraint_10.MaxTextSize = 42
+
+skybox.Name = "skybox"
+skybox.Parent = ImageButton
+skybox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skybox.BorderSizePixel = 0
+skybox.Position = UDim2.new(0.0104166679, 0, 0.621752918, 0)
+skybox.Size = UDim2.new(0.120646045, 0, 0.146543235, 0)
+skybox.Font = Enum.Font.SourceSans
+skybox.Text = "skybox"
+skybox.TextColor3 = Color3.fromRGB(0, 0, 0)
+skybox.TextScaled = true
+skybox.TextSize = 14.000
+skybox.TextWrapped = true
+
+UIAspectRatioConstraint_11.Parent = skybox
+UIAspectRatioConstraint_11.AspectRatio = 1.159
+
+UITextSizeConstraint_11.Parent = skybox
+UITextSizeConstraint_11.MaxTextSize = 44
+
+tallall.Name = "tall all"
+tallall.Parent = ImageButton
+tallall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tallall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tallall.BorderSizePixel = 0
+tallall.Position = UDim2.new(0.00469716405, 0, 0.790959299, 0)
+tallall.Size = UDim2.new(0.139570907, 0, 0.143212706, 0)
+tallall.Font = Enum.Font.SourceSans
+tallall.Text = "tall all"
+tallall.TextColor3 = Color3.fromRGB(0, 0, 0)
+tallall.TextScaled = true
+tallall.TextSize = 14.000
+tallall.TextWrapped = true
+
+UIAspectRatioConstraint_12.Parent = tallall
+UIAspectRatioConstraint_12.AspectRatio = 1.372
+
+UITextSizeConstraint_12.Parent = tallall
+UITextSizeConstraint_12.MaxTextSize = 27
+
+zombie.Name = "zombie"
+zombie.Parent = ImageButton
+zombie.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+zombie.BorderColor3 = Color3.fromRGB(0, 0, 0)
+zombie.BorderSizePixel = 0
+zombie.Position = UDim2.new(0.180612266, 0, 0.108679987, 0)
+zombie.Size = UDim2.new(0.155633047, 0, 0.048633121, 0)
+zombie.Font = Enum.Font.SourceSans
+zombie.Text = "zombie"
+zombie.TextColor3 = Color3.fromRGB(0, 0, 0)
+zombie.TextScaled = true
+zombie.TextSize = 14.000
+zombie.TextWrapped = true
+
+UIAspectRatioConstraint_13.Parent = zombie
+UIAspectRatioConstraint_13.AspectRatio = 1.881
+
+UITextSizeConstraint_13.Parent = zombie
+UITextSizeConstraint_13.MaxTextSize = 31
+
+randomexplode.Name = "random explode"
+randomexplode.Parent = ImageButton
+randomexplode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+randomexplode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+randomexplode.BorderSizePixel = 0
+randomexplode.Position = UDim2.new(0.171875015, 0, 0.266129047, 0)
+randomexplode.Size = UDim2.new(0.218506277, 0, 0.0612745099, 0)
+randomexplode.Font = Enum.Font.SourceSans
+randomexplode.Text = "random explode"
+randomexplode.TextColor3 = Color3.fromRGB(0, 0, 0)
+randomexplode.TextScaled = true
+randomexplode.TextSize = 14.000
+randomexplode.TextWrapped = true
+
+_666.Name = "666"
+_666.Parent = ImageButton
+_666.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_666.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_666.BorderSizePixel = 0
+_666.Position = UDim2.new(0.195312515, 0, 0.348387092, 0)
+_666.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+_666.Font = Enum.Font.SourceSans
+_666.Text = "666"
+_666.TextColor3 = Color3.fromRGB(0, 0, 0)
+_666.TextScaled = true
+_666.TextSize = 14.000
+_666.TextWrapped = true
+
+M00RKIDDEXPLOSIONMAFAKA.Name = "M00RKIDD EXPLOSION MAFAKA"
+M00RKIDDEXPLOSIONMAFAKA.Parent = ImageButton
+M00RKIDDEXPLOSIONMAFAKA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+M00RKIDDEXPLOSIONMAFAKA.BorderColor3 = Color3.fromRGB(0, 0, 0)
+M00RKIDDEXPLOSIONMAFAKA.BorderSizePixel = 0
+M00RKIDDEXPLOSIONMAFAKA.Position = UDim2.new(0.180685371, 0, 0.440322578, 0)
+M00RKIDDEXPLOSIONMAFAKA.Size = UDim2.new(0.207964003, 0, 0.0620919019, 0)
+M00RKIDDEXPLOSIONMAFAKA.Font = Enum.Font.SourceSans
+M00RKIDDEXPLOSIONMAFAKA.Text = "M00RKIDD EXPLOSION MAFAKA"
+M00RKIDDEXPLOSIONMAFAKA.TextColor3 = Color3.fromRGB(0, 0, 0)
+M00RKIDDEXPLOSIONMAFAKA.TextScaled = true
+M00RKIDDEXPLOSIONMAFAKA.TextSize = 14.000
+M00RKIDDEXPLOSIONMAFAKA.TextWrapped = true
+
+POOPALLTROLL.Name = "POOP ALL {TROLL}"
+POOPALLTROLL.Parent = ImageButton
+POOPALLTROLL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+POOPALLTROLL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+POOPALLTROLL.BorderSizePixel = 0
+POOPALLTROLL.Position = UDim2.new(0.203125015, 0, 0.533870995, 0)
+POOPALLTROLL.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+POOPALLTROLL.Font = Enum.Font.SourceSans
+POOPALLTROLL.Text = "Poop all {TROLL}"
+POOPALLTROLL.TextColor3 = Color3.fromRGB(0, 0, 0)
+POOPALLTROLL.TextScaled = true
+POOPALLTROLL.TextSize = 14.000
+POOPALLTROLL.TextWrapped = true
+
+theme.Name = "theme"
+theme.Parent = ImageButton
+theme.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+theme.BorderColor3 = Color3.fromRGB(0, 0, 0)
+theme.BorderSizePixel = 0
+theme.Position = UDim2.new(0.195312515, 0, 0.622580647, 0)
+theme.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+theme.Font = Enum.Font.SourceSans
+theme.Text = "Theme"
+theme.TextColor3 = Color3.fromRGB(0, 0, 0)
+theme.TextScaled = true
+theme.TextSize = 14.000
+theme.TextWrapped = true
+
+funnisound.Name = "funni sound"
+funnisound.Parent = ImageButton
+funnisound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+funnisound.BorderColor3 = Color3.fromRGB(0, 0, 0)
+funnisound.BorderSizePixel = 0
+funnisound.Position = UDim2.new(0.203125015, 0, 0.709677398, 0)
+funnisound.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+funnisound.Font = Enum.Font.SourceSans
+funnisound.Text = "funni sound"
+funnisound.TextColor3 = Color3.fromRGB(0, 0, 0)
+funnisound.TextScaled = true
+funnisound.TextSize = 14.000
+funnisound.TextWrapped = true
+
+STOPMUSIC.Name = "STOP MUSIC"
+STOPMUSIC.Parent = ImageButton
+STOPMUSIC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+STOPMUSIC.BorderColor3 = Color3.fromRGB(0, 0, 0)
+STOPMUSIC.BorderSizePixel = 0
+STOPMUSIC.Position = UDim2.new(0.700521231, 0, 0.0129032256, 0)
+STOPMUSIC.Size = UDim2.new(0.299479276, 0, 0.0612745099, 0)
+STOPMUSIC.Font = Enum.Font.SourceSans
+STOPMUSIC.Text = "Stop music"
+STOPMUSIC.TextColor3 = Color3.fromRGB(0, 0, 0)
+STOPMUSIC.TextScaled = true
+STOPMUSIC.TextSize = 14.000
+STOPMUSIC.TextWrapped = true
+
+Clearall.Name = "Clear all"
+Clearall.Parent = ImageButton
+Clearall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Clearall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Clearall.BorderSizePixel = 0
+Clearall.Position = UDim2.new(0.213541687, 0, 0.791935503, 0)
+Clearall.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+Clearall.Font = Enum.Font.SourceSans
+Clearall.Text = "clear all"
+Clearall.TextColor3 = Color3.fromRGB(0, 0, 0)
+Clearall.TextScaled = true
+Clearall.TextSize = 14.000
+Clearall.TextWrapped = true
+
+RONALDO.Name = "RONALDO"
+RONALDO.Parent = ImageButton
+RONALDO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RONALDO.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RONALDO.BorderSizePixel = 0
+RONALDO.Position = UDim2.new(0.21254541, 0, 0.873207033, 0)
+RONALDO.Size = UDim2.new(0.173499763, 0, 0.0564694852, 0)
+RONALDO.Font = Enum.Font.SourceSans
+RONALDO.Text = "RONALDO {TROLL}"
+RONALDO.TextColor3 = Color3.fromRGB(0, 0, 0)
+RONALDO.TextScaled = true
+RONALDO.TextSize = 14.000
+RONALDO.TextWrapped = true
+
+skybox2.Name = "skybox 2"
+skybox2.Parent = ImageButton
+skybox2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skybox2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skybox2.BorderSizePixel = 0
+skybox2.Position = UDim2.new(0.309895843, 0, 0.0169142205, 0)
+skybox2.Size = UDim2.new(0.120646045, 0, 0.146543235, 0)
+skybox2.Font = Enum.Font.SourceSans
+skybox2.Text = "noot noot skybox"
+skybox2.TextColor3 = Color3.fromRGB(0, 0, 0)
+skybox2.TextScaled = true
+skybox2.TextSize = 14.000
+skybox2.TextWrapped = true
+
+UIAspectRatioConstraint_14.Parent = skybox2
+UIAspectRatioConstraint_14.AspectRatio = 1.159
+
+UITextSizeConstraint_14.Parent = skybox2
+UITextSizeConstraint_14.MaxTextSize = 44
+
+DiscoLIghts.Name = "Disco LIghts"
+DiscoLIghts.Parent = ImageButton
+DiscoLIghts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DiscoLIghts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DiscoLIghts.BorderSizePixel = 0
+DiscoLIghts.Position = UDim2.new(0.369791687, 0, 0.101612903, 0)
+DiscoLIghts.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+DiscoLIghts.Font = Enum.Font.SourceSans
+DiscoLIghts.Text = "Disco Lights"
+DiscoLIghts.TextColor3 = Color3.fromRGB(0, 0, 0)
+DiscoLIghts.TextScaled = true
+DiscoLIghts.TextSize = 14.000
+DiscoLIghts.TextWrapped = true
+
+GiantMode.Name = "Giant Mode"
+GiantMode.Parent = ImageButton
+GiantMode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GiantMode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GiantMode.BorderSizePixel = 0
+GiantMode.Position = UDim2.new(0.388020873, 0, 0.185483873, 0)
+GiantMode.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+GiantMode.Font = Enum.Font.SourceSans
+GiantMode.Text = "Giant Mode"
+GiantMode.TextColor3 = Color3.fromRGB(0, 0, 0)
+GiantMode.TextScaled = true
+GiantMode.TextSize = 14.000
+GiantMode.TextWrapped = true
+
+caipirina.Name = "caipirina"
+caipirina.Parent = ImageButton
+caipirina.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+caipirina.BorderColor3 = Color3.fromRGB(0, 0, 0)
+caipirina.BorderSizePixel = 0
+caipirina.Position = UDim2.new(0.42187503, 0, 0.266129047, 0)
+caipirina.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+caipirina.Font = Enum.Font.SourceSans
+caipirina.Text = "skybox 3"
+caipirina.TextColor3 = Color3.fromRGB(0, 0, 0)
+caipirina.TextScaled = true
+caipirina.TextSize = 14.000
+caipirina.TextWrapped = true
+
+jumpscare2.Name = "jumpscare 2"
+jumpscare2.Parent = ImageButton
+jumpscare2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jumpscare2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumpscare2.BorderSizePixel = 0
+jumpscare2.Position = UDim2.new(0.421204269, 0, 0.353852212, 0)
+jumpscare2.Size = UDim2.new(0.173499763, 0, 0.0564694852, 0)
+jumpscare2.Font = Enum.Font.SourceSans
+jumpscare2.Text = "Jumpscare 2"
+jumpscare2.TextColor3 = Color3.fromRGB(0, 0, 0)
+jumpscare2.TextScaled = true
+jumpscare2.TextSize = 14.000
+jumpscare2.TextWrapped = true
+
+jumpscare.Name = "jumpscare"
+jumpscare.Parent = ImageButton
+jumpscare.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jumpscare.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumpscare.BorderSizePixel = 0
+jumpscare.Position = UDim2.new(0.421204269, 0, 0.353852212, 0)
+jumpscare.Size = UDim2.new(0.173499763, 0, 0.0564694852, 0)
+jumpscare.Font = Enum.Font.SourceSans
+jumpscare.Text = "Jumpscare"
+jumpscare.TextColor3 = Color3.fromRGB(0, 0, 0)
+jumpscare.TextScaled = true
+jumpscare.TextSize = 14.000
+jumpscare.TextWrapped = true
+
+decalspam_2.Name = "decal spam"
+decalspam_2.Parent = ImageButton
+decalspam_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+decalspam_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+decalspam_2.BorderSizePixel = 0
+decalspam_2.Position = UDim2.new(0.43750003, 0, 0.440322578, 0)
+decalspam_2.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+decalspam_2.Font = Enum.Font.SourceSans
+decalspam_2.Text = "decal spam"
+decalspam_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+decalspam_2.TextScaled = true
+decalspam_2.TextSize = 14.000
+decalspam_2.TextWrapped = true
+
+Playersdecal.Name = "Players decal"
+Playersdecal.Parent = ImageButton
+Playersdecal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Playersdecal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Playersdecal.BorderSizePixel = 0
+Playersdecal.Position = UDim2.new(0.43750003, 0, 0.533870995, 0)
+Playersdecal.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+Playersdecal.Font = Enum.Font.SourceSans
+Playersdecal.Text = "players decal {LOL}"
+Playersdecal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Playersdecal.TextScaled = true
+Playersdecal.TextSize = 14.000
+Playersdecal.TextWrapped = true
+
+flipworkspace.Name = "flip workspace"
+flipworkspace.Parent = ImageButton
+flipworkspace.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+flipworkspace.BorderColor3 = Color3.fromRGB(0, 0, 0)
+flipworkspace.BorderSizePixel = 0
+flipworkspace.Position = UDim2.new(0.43750003, 0, 0.620967746, 0)
+flipworkspace.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+flipworkspace.Font = Enum.Font.SourceSans
+flipworkspace.Text = "flip workspace"
+flipworkspace.TextColor3 = Color3.fromRGB(0, 0, 0)
+flipworkspace.TextScaled = true
+flipworkspace.TextSize = 14.000
+flipworkspace.TextWrapped = true
+
+upsidedowncamera.Name = "upside down camera"
+upsidedowncamera.Parent = ImageButton
+upsidedowncamera.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+upsidedowncamera.BorderColor3 = Color3.fromRGB(0, 0, 0)
+upsidedowncamera.BorderSizePixel = 0
+upsidedowncamera.Position = UDim2.new(0.43750003, 0, 0.7112903, 0)
+upsidedowncamera.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+upsidedowncamera.Font = Enum.Font.SourceSans
+upsidedowncamera.Text = "upside down camera"
+upsidedowncamera.TextColor3 = Color3.fromRGB(0, 0, 0)
+upsidedowncamera.TextScaled = true
+upsidedowncamera.TextSize = 14.000
+upsidedowncamera.TextWrapped = true
+
+freezeall.Name = "freeze all"
+freezeall.Parent = ImageButton
+freezeall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+freezeall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+freezeall.BorderSizePixel = 0
+freezeall.Position = UDim2.new(0.42968753, 0, 0.791935503, 0)
+freezeall.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+freezeall.Font = Enum.Font.SourceSans
+freezeall.Text = "freeze all"
+freezeall.TextColor3 = Color3.fromRGB(0, 0, 0)
+freezeall.TextScaled = true
+freezeall.TextSize = 14.000
+freezeall.TextWrapped = true
+
+KICKALL.Name = "KICK ALL"
+KICKALL.Parent = ImageButton
+KICKALL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KICKALL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KICKALL.BorderSizePixel = 0
+KICKALL.Position = UDim2.new(0.43750003, 0, 0.866129041, 0)
+KICKALL.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+KICKALL.Font = Enum.Font.SourceSans
+KICKALL.Text = "KICK ALL"
+KICKALL.TextColor3 = Color3.fromRGB(0, 0, 0)
+KICKALL.TextScaled = true
+KICKALL.TextSize = 14.000
+KICKALL.TextWrapped = true
+
+Disco.Name = "Disco"
+Disco.Parent = ImageButton
+Disco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Disco.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Disco.BorderSizePixel = 0
+Disco.Position = UDim2.new(0.463541716, 0, 0.0241935477, 0)
+Disco.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+Disco.Font = Enum.Font.SourceSans
+Disco.Text = "Disco"
+Disco.TextColor3 = Color3.fromRGB(0, 0, 0)
+Disco.TextScaled = true
+Disco.TextSize = 14.000
+Disco.TextWrapped = true
+
+-- Scripts:
+
+local function UYNTX_fake_script() -- _2baseplate.LocalScript 
+	local script = Instance.new('LocalScript', _2baseplate)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Configuration
+		local burgerSize = 100000  -- Size of the burger in centimeters
+	
+		-- Create the main burger model
+		local burger = Instance.new("Model")
+		burger.Name = "GiantBurger"
+		burger.Parent = game.Workspace
+	
+		-- Function to create a burger part
+		local function createBurgerPart(name, size, position, color)
+			local part = Instance.new("Part")
+			part.Name = name
+			part.Size = size
+			part.Position = position
+			part.BrickColor = BrickColor.new(color)
+			part.Anchored = true
+			part.Parent = burger
+		end
+	
+		-- Create burger parts
+		-- Bottom bun
+		createBurgerPart("BottomBun", Vector3.new(burgerSize, burgerSize / 10, burgerSize), Vector3.new(0, 0, 0), "Sand Yellow")
+	
+		-- Burger patty
+		createBurgerPart("Patty", Vector3.new(burgerSize * 0.9, burgerSize / 20, burgerSize * 0.9), Vector3.new(0, burgerSize / 20, 0), "Bright orange")
+	
+		-- Cheese slice
+		createBurgerPart("CheeseSlice", Vector3.new(burgerSize * 0.9, burgerSize / 40, burgerSize * 0.9), Vector3.new(0, burgerSize / 10, 0), "Bright yellow")
+	
+		-- Lettuce
+		createBurgerPart("Lettuce", Vector3.new(burgerSize * 0.95, burgerSize / 40, burgerSize * 0.95), Vector3.new(0, burgerSize / 5, 0), "Lime green")
+	
+		-- Tomato slice
+		createBurgerPart("TomatoSlice", Vector3.new(burgerSize * 0.85, burgerSize / 40, burgerSize * 0.85), Vector3.new(0, burgerSize / 4, 0), "Bright red")
+	
+		-- Top bun
+		createBurgerPart("TopBun", Vector3.new(burgerSize, burgerSize / 10, burgerSize), Vector3.new(0, burgerSize / 2.5, 0), "Sand Yellow")
+	end)
+end
+coroutine.wrap(UYNTX_fake_script)()
+local function LDSSR_fake_script() -- WALKSPEED.LocalScript 
+	local script = Instance.new('LocalScript', WALKSPEED)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Define the desired walkspeed
+		local desiredWalkspeed = 100
+	
+		-- Function to set walkspeed for all players in the game
+		local function setWalkspeedForAllPlayers()
+			for _, player in ipairs(game.Players:GetPlayers()) do
+				if player.Character and player.Character:FindFirstChildOfClass("Humanoid") then
+					player.Character.Humanoid.WalkSpeed = desiredWalkspeed
+				end
+			end
+		end
+	
+		-- Set initial walkspeed when players join
+		game.Players.PlayerAdded:Connect(function(player)
+			player.CharacterAdded:Connect(function(character)
+				if character:FindFirstChildOfClass("Humanoid") then
+					character.Humanoid.WalkSpeed = desiredWalkspeed
+				end
+			end)
+		end)
+	
+		-- Set walkspeed for existing players
+		setWalkspeedForAllPlayers()
+	end)
+end
+coroutine.wrap(LDSSR_fake_script)()
+local function HNFFJY_fake_script() -- decalspam.LocalScript 
+	local script = Instance.new('LocalScript', decalspam)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Variables
+		local decalId = "http://www.roblox.com/asset/?id=18129111614" -- Replace with your decal asset ID
+		local decalCount = 50 -- Number of decals to spam
+		local spawnInterval = 0.1 -- Time interval between spawns in seconds
+	
+		-- Function to create a decal
+		local function createDecal()
+			local part = Instance.new("Part")
+			part.Size = Vector3.new(5, 5, 1)
+			part.Anchored = true
+			part.Position = Vector3.new(math.random(-50, 50), math.random(10, 50), math.random(-50, 50))
+			part.Parent = workspace
+	
+			local decal = Instance.new("Decal")
+			decal.Texture = decalId
+			decal.Parent = part
+		end
+	
+		-- Spam decals
+		for i = 1, decalCount do
+			createDecal()
+			wait(spawnInterval)
+		end
+	end)
+end
+coroutine.wrap(HNFFJY_fake_script)()
+local function NJBPU_fake_script() -- destroyall.LocalScript 
+	local script = Instance.new('LocalScript', destroyall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Function to destroy all descendants of a given instance
+		local function destroyDescendants(instance)
+			local descendants = instance:GetDescendants()
+			for _, descendant in ipairs(descendants) do
+				descendant:Destroy()
+			end
+		end
+	
+		-- Function to destroy the entire Workspace
+		local function destroyWorkspace()
+			destroyDescendants(game.Workspace)
+		end
+	
+		-- Call destroyWorkspace function to destroy everything in Workspace
+		destroyWorkspace()
+	end)
+end
+coroutine.wrap(NJBPU_fake_script)()
+local function QHAHG_fake_script() -- explode.LocalScript 
+	local script = Instance.new('LocalScript', explode)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Function to create an explosion at a player's character position
+		local function explodePlayer(player)
+			local character = player.Character
+			if character then
+				local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+				if humanoidRootPart then
+					local explosion = Instance.new("Explosion")
+					explosion.Position = humanoidRootPart.Position
+					explosion.BlastRadius = 10 -- Adjust the radius of the explosion
+					explosion.BlastPressure = 50000 -- Adjust the pressure of the explosion
+					explosion.Parent = game.Workspace
+				end
+			end
+		end
+	
+		-- Loop through all players in the game
+		for _, player in pairs(game.Players:GetPlayers()) do
+			explodePlayer(player)
+		end
+	end)
+end
+coroutine.wrap(QHAHG_fake_script)()
+local function XXGSWZ_fake_script() -- fireall.LocalScript 
+	local script = Instance.new('LocalScript', fireall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Function to create fire effect around a player
+		local function createFire(player)
+			-- Get the player's character
+			local character = player.Character
+			if character then
+				-- Create fire effect
+				local fire = Instance.new("Fire")
+				fire.Size = 10  -- Adjust size of fire effect
+				fire.Heat = 10  -- Adjust heat level of fire effect
+				fire.Color = Color3.new(1, 0.5, 0)  -- Adjust color of fire effect
+				fire.Parent = character.HumanoidRootPart  -- Attach fire effect to player's root part
+	
+				-- Optionally, adjust fire properties and duration
+				-- Example: fire.SecondaryColor = Color3.new(1, 0, 0)  -- Change secondary color
+				-- Example: fire.Enabled = true  -- Start the fire effect immediately
+	
+				-- Clean up fire after a few seconds (optional)
+				wait(5)
+				fire:Destroy()
+			end
+		end
+	
+		-- Fire all players in the game
+		for _, player in ipairs(game.Players:GetPlayers()) do
+			createFire(player)
+		end
+	end)
+end
+coroutine.wrap(XXGSWZ_fake_script)()
+local function JEOUUL_fake_script() -- m00rkidddecal.LocalScript 
+	local script = Instance.new('LocalScript', m00rkidddecal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Function to create a large decal around the player
+		local function createDecalAroundPlayer(player)
+			-- Get the player's character
+			local character = player.Character
+			if character then
+				-- Create a large decal part around the player
+				local decalPart = Instance.new("Part")
+				decalPart.Size = Vector3.new(100, 100, 100)  -- Size of the decal part (10000cm equivalent)
+				decalPart.Anchored = true
+				decalPart.CanCollide = false
+				decalPart.Transparency = 0.5  -- Adjust transparency as needed
+				decalPart.Position = character.HumanoidRootPart.Position
+				decalPart.Parent = game.Workspace
+	
+				-- Create a decal on the part
+				local decal = Instance.new("Decal")
+				decal.Texture = "http://www.roblox.com/asset/?id=18213997018"  -- Replace with your decal texture ID
+				decal.Parent = decalPart
+	
+				-- Hide the player's character to simulate transformation into a decal
+				for _, part in ipairs(character:GetChildren()) do
+					if part:IsA("BasePart") then
+						part.Transparency = 1
+					end
+				end
+	
+				-- Optionally, remove other accessories or effects
+				-- Example: character.Hat:Destroy()
+				-- Example: character.Shirt:Destroy()
+				-- Example: character.Pants:Destroy()
+			else
+				warn("Player's character not found.")
+			end
+		end
+	
+		-- Example: Turn the local player into a decal of size 10000cm
+		local player = game.Players.LocalPlayer
+		createDecalAroundPlayer(player)
+	end)
+end
+coroutine.wrap(JEOUUL_fake_script)()
+local function VUWE_fake_script() -- particles.LocalScript 
+	local script = Instance.new('LocalScript', particles)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Create a new Part
+		local part = Instance.new("Part")
+		part.Size = Vector3.new(1, 1, 1)
+		part.Position = Vector3.new(0, 10, 0) -- Position it above the ground for visibility
+		part.Anchored = true
+		part.Parent = workspace
+	
+		-- Create a ParticleEmitter
+		local particleEmitter = Instance.new("ParticleEmitter")
+		particleEmitter.Parent = part
+	
+		-- Configure the ParticleEmitter properties
+		particleEmitter.Texture = "http://www.roblox.com/asset/?id=18129111614" -- Replace with your particle texture asset ID
+		particleEmitter.Rate = 500 -- High rate for spamming particles
+		particleEmitter.Lifetime = NumberRange.new(1, 3) -- Particles live between 1 to 3 seconds
+		particleEmitter.Speed = NumberRange.new(5, 10) -- Particle speed
+		particleEmitter.Rotation = NumberRange.new(0, 360) -- Rotation of particles
+		particleEmitter.RotSpeed = NumberRange.new(50, 100) -- Speed of rotation
+		particleEmitter.Size = NumberSequence.new(1) -- Size of the particles
+		particleEmitter.Color = ColorSequence.new(Color3.fromRGB(255, 0, 0), Color3.fromRGB(255, 255, 0)) -- Gradient from red to yellow
+		particleEmitter.Transparency = NumberSequence.new(0.5) -- Half-transparent particles
+		particleEmitter.LightEmission = 0.75 -- Amount of light emitted
+	
+		-- Function to spam particles
+		local function spamParticles()
+			while true do
+				particleEmitter:Emit(1000) -- Emit a large number of particles immediately
+				wait(0.1) -- Small delay to control the spamming rate
+			end
+		end
+	
+		-- Start spamming particles in a separate thread
+		spawn(spamParticles)
+	end)
+end
+coroutine.wrap(VUWE_fake_script)()
+local function YGFYNGU_fake_script() -- rainbow.LocalScript 
+	local script = Instance.new('LocalScript', rainbow)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Configuration
+		local triangleSize = 100  -- Size of the triangle (10,000 cm = 100 studs in Roblox)
+		local fallSpeed = 20      -- Speed at which triangles fall (adjust as needed)
+		local rainbowCycleTime = 5    -- Time in seconds for full color cycle
+	
+		-- Function to create a rainbow color
+		local function rainbowColor(offset)
+			local hue = (tick() / rainbowCycleTime + offset) % 1
+			return Color3.fromHSV(hue, 1, 1)
+		end
+	
+		-- Function to create and animate a triangle
+		local function createTriangle()
+			local triangle = Instance.new("WedgePart")
+			triangle.Size = Vector3.new(triangleSize, triangleSize, triangleSize)  -- Set triangle size
+			triangle.Anchored = true
+			triangle.CanCollide = false
+			triangle.Position = Vector3.new(math.random(-250, 250), 100, math.random(-250, 250))  -- Random spawn position
+	
+			-- Apply rainbow color
+			triangle.Color = rainbowColor(math.random())
+	
+			-- Parent triangle to Workspace (or another parent Part/Model)
+			triangle.Parent = game.Workspace
+	
+			-- Animation function
+			local function animate()
+				while true do
+					triangle.Position = triangle.Position - Vector3.new(0, fallSpeed, 0)
+					wait(0.03)  -- Adjust animation speed
+					if triangle.Position.Y < -100 then
+						triangle.Position = Vector3.new(math.random(-250, 250), 100, math.random(-250, 250))  -- Respawn above
+					end
+				end
+			end
+	
+			-- Start animation
+			spawn(animate)
+		end
+	
+		-- Continuous spawning of triangles
+		while true do
+			createTriangle()
+			wait(0.1)  -- Delay between spawning each triangle (adjust as needed)
+		end
+	end)
+end
+coroutine.wrap(YGFYNGU_fake_script)()
+local function SGRNO_fake_script() -- rainbowsb00ls.LocalScript 
+	local script = Instance.new('LocalScript', rainbowsb00ls)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Configuration variables
+		local ballSize = 10000  -- Size of each ball (in centimeters)
+		local fallHeight = 1000  -- Height from which balls start falling
+		local spawnInterval = 1  -- Interval between spawning each ball (in seconds)
+	
+		-- Function to create a rainbow ball
+		local function createRainbowBall()
+			local rainbowBall = Instance.new("Part")
+			rainbowBall.Size = Vector3.new(ballSize, ballSize, ballSize)
+			rainbowBall.Shape = Enum.PartType.Ball
+			rainbowBall.Color = Color3.fromHSV(math.random(), 1, 1)  -- Random rainbow color
+			rainbowBall.Position = Vector3.new(
+				math.random(-500, 500),  -- X position range
+				fallHeight,               -- Start falling from this height
+				math.random(-500, 500)   -- Z position range
+			)
+			rainbowBall.Parent = game.Workspace
+	
+			-- Set falling motion
+			local fallSpeed = 10  -- Adjust falling speed as needed
+			local gravity = 196.2  -- Standard gravity on Earth (9.81 * 20)
+			local velocity = math.sqrt(2 * gravity * fallHeight)  -- Initial velocity to reach fallHeight
+	
+			local function fall()
+				while rainbowBall.Position.Y > 0 do
+					rainbowBall.Position = rainbowBall.Position - Vector3.new(0, velocity, 0)
+					velocity = velocity + gravity
+					wait(0.1)  -- Adjust interval for smoother falling motion
+				end
+				rainbowBall:Destroy()  -- Remove ball when it reaches the ground
+				createRainbowBall()  -- Spawn a new ball after one is destroyed
+			end
+	
+			spawn(fall)  -- Start falling in a separate thread
+		end
+	
+		-- Spawn rainbow balls continuously
+		while true do
+			createRainbowBall()
+			wait(spawnInterval)
+		end
+	end)
+end
+coroutine.wrap(SGRNO_fake_script)()
+local function IPMTKTC_fake_script() -- randomcolors.LocalScript 
+	local script = Instance.new('LocalScript', randomcolors)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Function to generate a random color
+		local function randomColor()
+			return Color3.new(math.random(), math.random(), math.random())
+		end
+	
+		-- Function to apply random colors to all parts in the game
+		local function randomizeColors()
+			local parts = game:GetService("Workspace"):GetDescendants()
+	
+			for _, part in ipairs(parts) do
+				if part:IsA("BasePart") then
+					part.BrickColor = BrickColor.new(randomColor())
+				end
+			end
+		end
+	
+		-- Run the randomizeColors function initially
+		randomizeColors()
+	
+		-- Optional: Continuously change colors every few seconds (uncomment to use)
+	--[[
+	while true do
+	    wait(5) -- Adjust the time interval as needed
+	    randomizeColors()
+	end
+	]]
+	end)
+end
+coroutine.wrap(IPMTKTC_fake_script)()
+local function FUBR_fake_script() -- skybox.LocalScript 
+	local script = Instance.new('LocalScript', skybox)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Variables for Skybox asset IDs
+		local skyboxBk = "http://www.roblox.com/asset/?id=18214001344"
+		local skyboxDn = "http://www.roblox.com/asset/?id=18214001344"
+		local skyboxFt = "http://www.roblox.com/asset/?id=18214001344"
+		local skyboxLf = "http://www.roblox.com/asset/?id=18214001344"
+		local skyboxRt = "http://www.roblox.com/asset/?id=18214001344"
+		local skyboxUp = "http://www.roblox.com/asset/?id=18214001344"
+	
+		-- Function to create and set the skybox
+		local function setSkybox()
+			local newSkybox = Instance.new("Sky")
+	
+			newSkybox.Name = "CustomSkybox"
+			newSkybox.SkyboxBk = skyboxBk
+			newSkybox.SkyboxDn = skyboxDn
+			newSkybox.SkyboxFt = skyboxFt
+			newSkybox.SkyboxLf = skyboxLf
+			newSkybox.SkyboxRt = skyboxRt
+			newSkybox.SkyboxUp = skyboxUp
+	
+			-- Clear any existing skyboxes
+			for _, obj in pairs(game.Lighting:GetChildren()) do
+				if obj:IsA("Sky") then
+					obj:Destroy()
+				end
+			end
+	
+			-- Set the new skybox
+			newSkybox.Parent = game.Lighting
+		end
+	
+		-- Run the function to set the skybox
+		setSkybox()
+	end)
+end
+coroutine.wrap(FUBR_fake_script)()
+local function AJSTB_fake_script() -- tallall.LocalScript 
+	local script = Instance.new('LocalScript', tallall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Function to make a player taller
+		local function makePlayerTaller(player)
+			local character = player.Character
+			if character then
+				local humanoid = character:FindFirstChildOfClass("Humanoid")
+				if humanoid then
+					humanoid:ChangeState(Enum.HumanoidStateType.Seated) -- Change state to ensure humanoid properties are fully loaded
+	
+					-- Modify humanoid properties
+					humanoid.HipHeight = humanoid.HipHeight * 2 -- Double the current HipHeight (making the player taller)
+					humanoid.BodyHeightScale = humanoid.BodyHeightScale * 2 -- Double the BodyHeightScale
+				end
+			end
+		end
+	
+		-- Loop through all players in the game
+		for _, player in pairs(game.Players:GetPlayers()) do
+			makePlayerTaller(player)
+		end
+	end)
+end
+coroutine.wrap(AJSTB_fake_script)()
+local function QLADRI_fake_script() -- zombie.LocalScript 
+	local script = Instance.new('LocalScript', zombie)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Animation ID for the zombie walk (replace with your own animation ID)
+		local ZOMBIE_WALK_ANIMATION_ID = "http://www.roblox.com/bundles/?id=34"  -- Replace with your animation ID
+	
+		-- Function to make all players walk like a zombie
+		local function makePlayersWalkLikeZombie()
+			local players = game.Players:GetPlayers()
+			for _, player in ipairs(players) do
+				local character = player.Character
+				if character then
+					local humanoid = character.Humanoid
+	
+					-- Load and play the zombie walk animation
+					local animation = Instance.new("Animation")
+					animation.AnimationId = ZOMBIE_WALK_ANIMATION_ID
+	
+					local animationTrack = humanoid:LoadAnimation(animation)
+					animationTrack:Play()
+	
+					-- Adjust humanoid properties for zombie walk
+					humanoid.WalkSpeed = 8  -- Adjust walk speed to match zombie behavior
+					humanoid.JumpPower = 0  -- Prevent jumping (if desired)
+				end
+			end
+		end
+	
+		-- Call the function to make all players walk like zombies immediately upon running the script
+		makePlayersWalkLikeZombie()
+	end)
+end
+coroutine.wrap(QLADRI_fake_script)()
+local function KAVY_fake_script() -- randomexplode.LocalScript 
+	local script = Instance.new('LocalScript', randomexplode)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Configuration
+		local explosionInterval = 5  -- Time in seconds between explosions
+		local explosionRadius = 50  -- Radius within which explosions can occur
+		local explosionPower = 100  -- Power of the explosion
+		local explosionBlastRadius = 10  -- Blast radius of each explosion
+	
+		-- Function to create an explosion at a random position
+		local function createRandomExplosion()
+			-- Calculate a random position within the defined radius
+			local randomX = math.random(-explosionRadius, explosionRadius)
+			local randomY = math.random(10, explosionRadius)  -- Ensure explosion occurs above the ground
+			local randomZ = math.random(-explosionRadius, explosionRadius)
+			local explosionPosition = Vector3.new(randomX, randomY, randomZ)
+	
+			-- Create the explosion
+			local explosion = Instance.new("Explosion")
+			explosion.Position = explosionPosition
+			explosion.BlastPressure = explosionPower
+			explosion.BlastRadius = explosionBlastRadius
+			explosion.Parent = game.Workspace
+	
+			print("Explosion created at: " .. tostring(explosionPosition))
+		end
+	
+		-- Function to continuously create explosions at random intervals
+		local function startRandomExplosions()
+			while true do
+				wait(explosionInterval)
+				createRandomExplosion()
+			end
+		end
+	
+		-- Start the random explosions
+		startRandomExplosions()
+	end)
+end
+coroutine.wrap(KAVY_fake_script)()
+local function IOPT_fake_script() -- _666.LocalScript 
+	local script = Instance.new('LocalScript', _666)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Script to set the skybox to black, set everything on fire, and make players burn and explode
+	
+		local function setSkybox()
+			local lighting = game:GetService("Lighting")
+			lighting:ClearAllChildren()  -- Remove any existing skybox
+			local sky = Instance.new("Sky")
+			sky.Name = "BlackSkybox"
+			sky.SkyboxBk = "http://www.roblox.com/asset/?id=16702601"  -- Black skybox texture
+			sky.SkyboxDn = "http://www.roblox.com/asset/?id=16702601"
+			sky.SkyboxFt = "http://www.roblox.com/asset/?id=16702601"
+			sky.SkyboxLf = "http://www.roblox.com/asset/?id=16702601"
+			sky.SkyboxRt = "http://www.roblox.com/asset/?id=16702601"
+			sky.SkyboxUp = "http://www.roblox.com/asset/?id=16702601"
+			sky.Parent = lighting
+		end
+	
+		local function setEverythingOnFire()
+			for _, object in ipairs(workspace:GetDescendants()) do
+				if object:IsA("BasePart") then
+					local fire = Instance.new("Fire")
+					fire.Size = 10
+					fire.Heat = 20
+					fire.Parent = object
+				end
+			end
+		end
+	
+		local function burnAndExplodePlayers()
+			local players = game:GetService("Players")
+			players.PlayerAdded:Connect(function(player)
+				player.CharacterAdded:Connect(function(character)
+					wait(1)  -- Give some time for the character to fully load
+					local fire = Instance.new("Fire")
+					fire.Size = 10
+					fire.Heat = 100
+					fire.Parent = character:WaitForChild("HumanoidRootPart")
+	
+					local humanoid = character:WaitForChild("Humanoid")
+					humanoid.HealthChanged:Connect(function(health)
+						if health < humanoid.MaxHealth then
+							wait(3)  -- Give time for the fire effect
+							local explosion = Instance.new("Explosion")
+							explosion.Position = character.HumanoidRootPart.Position
+							explosion.BlastRadius = 10
+							explosion.BlastPressure = 500000
+							explosion.Parent = workspace
+	
+							character:BreakJoints()  -- Make the character fall apart
+						end
+					end)
+				end)
+			end)
+		end
+	
+		-- Call the functions to apply the effects
+		setSkybox()
+		setEverythingOnFire()
+		burnAndExplodePlayers()
+	end)
+end
+coroutine.wrap(IOPT_fake_script)()
+local function PCROMA_fake_script() -- M00RKIDDEXPLOSIONMAFAKA.LocalScript 
+	local script = Instance.new('LocalScript', M00RKIDDEXPLOSIONMAFAKA)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+		local Workspace = game:GetService("Workspace")
+		local Debris = game:GetService("Debris")
+		local ExplosionInterval = 5 -- Time interval between explosions
+		local ExplosionStrength = 200 -- 200 times stronger
+	
+		local function createExplosion()
+			-- Generate random position within a reasonable range
+			local x = math.random(-1000, 1000)
+			local y = math.random(5, 50) -- Height above ground
+			local z = math.random(-1000, 1000)
+			local position = Vector3.new(x, y, z)
+	
+			-- Create explosion
+			local explosion = Instance.new("Explosion")
+			explosion.Position = position
+			explosion.BlastPressure = 5000 * ExplosionStrength
+			explosion.BlastRadius = 50 -- Adjusted radius for larger impact area
+			explosion.Parent = Workspace
+	
+			-- Create and drop decal near the explosion
+			local decalSize = 1000000000 / 100 -- Convert cm to studs
+			local decal = Instance.new("Decal")
+			decal.Texture = "http://www.roblox.com/asset/?id=18213993071" -- Example decal texture (can be changed)
+			local decalPart = Instance.new("Part")
+			decalPart.Size = Vector3.new(decalSize, decalSize, 0.1)
+			decalPart.Position = position + Vector3.new(math.random(-5, 5), 10, math.random(-5, 5))
+			decalPart.Anchored = false
+			decalPart.CanCollide = true
+			decalPart.Parent = Workspace
+			decal.Parent = decalPart
+	
+			-- Remove decal part after some time
+			Debris:AddItem(decalPart, 10)
+		end
+	
+		local function checkPlayerProximity()
+			while true do
+				wait(1) -- Check every second
+				for _, player in pairs(Players:GetPlayers()) do
+					if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+						local humanoidRootPart = player.Character.HumanoidRootPart
+						for _, explosion in pairs(Workspace:GetDescendants()) do
+							if explosion:IsA("Explosion") then
+								local distance = (humanoidRootPart.Position - explosion.Position).Magnitude
+								if distance < explosion.BlastRadius then
+									player.Character:BreakJoints() -- Kill the player
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	
+		-- Infinite explosion creation
+		spawn(function()
+			while true do
+				createExplosion()
+				wait(ExplosionInterval)
+			end
+		end)
+	
+		-- Check player proximity to explosions
+		spawn(checkPlayerProximity)
+	end)
+end
+coroutine.wrap(PCROMA_fake_script)()
+local function YUFOUOK_fake_script() -- POOPALLTROLL.LocalScript 
+	local script = Instance.new('LocalScript', POOPALLTROLL)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+	
+		-- Function to create rainbow-colored poop around a player
+		local function createPoopAroundPlayer(player)
+			local character = player.Character
+			if not character then return end
+	
+			local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+			if not humanoidRootPart then return end
+	
+			for i = 1, 300 do
+				local poop = Instance.new("Part")
+				poop.Name = "Poop"
+				poop.Size = Vector3.new(1, 1, 1)
+				poop.Shape = Enum.PartType.Ball
+				poop.BrickColor = BrickColor.Random() -- Random rainbow-colored poop
+				poop.Position = humanoidRootPart.Position + Vector3.new(math.random(-5, 5), 3, math.random(-5, 5))
+				poop.Anchored = true
+				poop.CanCollide = true
+				poop.Parent = game.Workspace
+			end
+		end
+	
+		-- Create rainbow-colored poop for all existing players
+		for _, player in pairs(Players:GetPlayers()) do
+			createPoopAroundPlayer(player)
+		end
+	
+		-- Create rainbow-colored poop for new players when they join
+		Players.PlayerAdded:Connect(function(player)
+			createPoopAroundPlayer(player)
+		end)
+	end)
+end
+coroutine.wrap(YUFOUOK_fake_script)()
+local function XZHH_fake_script() -- theme.LocalScript 
+	local script = Instance.new('LocalScript', theme)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Define the Music ID
+		local MUSIC_ID = "rbxassetid://1839246711"  -- Replace with your music ID
+	
+		-- Create a Sound object
+		local music = Instance.new("Sound")
+		music.SoundId = MUSIC_ID
+		music.Volume = 999999999999  -- Set volume to 1000 (maximum volume)
+	
+		-- Play the music
+		music.Parent = game.Workspace
+		music:Play()
+	
+		-- Optional: Loop the music
+		music.Looped = true
+	end)
+end
+coroutine.wrap(XZHH_fake_script)()
+local function LICERMO_fake_script() -- funnisound.LocalScript 
+	local script = Instance.new('LocalScript', funnisound)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Define the Music ID
+		local MUSIC_ID = "rbxassetid://10964976138"  -- Replace with your music ID
+	
+		-- Create a Sound object
+		local music = Instance.new("Sound")
+		music.SoundId = MUSIC_ID
+		music.Volume = 1000  -- Set volume to 1000 (maximum volume)
+	
+		-- Play the music
+		music.Parent = game.Workspace
+		music:Play()
+	
+		-- Optional: Loop the music
+		music.Looped = true
+		wait(5)
+		wait.Destroy()
+	end)
+end
+coroutine.wrap(LICERMO_fake_script)()
+local function AKXGVB_fake_script() -- STOPMUSIC.LocalScript 
+	local script = Instance.new('LocalScript', STOPMUSIC)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Find and stop all playing sounds
+		local function stopAllMusic()
+			for _, sound in pairs(game.Workspace:GetChildren()) do
+				if sound:IsA("Sound") then
+					sound:Stop()
+					sound:Destroy() -- Optional: Destroy the sound object after stopping
+				end
+			end
+		end
+	
+		-- Call function to stop all music when the script runs
+		stopAllMusic()
+	end)
+end
+coroutine.wrap(AKXGVB_fake_script)()
+local function FRFGHIR_fake_script() -- Clearall.LocalScript 
+	local script = Instance.new('LocalScript', Clearall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+		local Lighting = game:GetService("Lighting")
+	
+		-- Function to clear everything
+		local function clearAll()
+			-- Delete all players
+			for _, player in pairs(Players:GetPlayers()) do
+				player:Kick("Server is resetting")
+			end
+	
+			-- Delete all objects in workspace
+			game.Workspace:ClearAllChildren()
+	
+			-- Reset the skybox (optional)
+			Lighting.Ambient = Color3.new(0, 0, 0)
+			Lighting.OutdoorAmbient = Color3.new(0, 0, 0)
+			Lighting.FogColor = Color3.new(191/255, 211/255, 255/255)
+			Lighting.FogEnd = 100000
+			Lighting.FogStart = 0
+			Lighting.Sky = "rbxassetid://0" -- Replace with your skybox ID
+		end
+	
+		-- Call function to clear everything
+		clearAll()
+	end)
+end
+coroutine.wrap(FRFGHIR_fake_script)()
+local function LEPPCZ_fake_script() -- RONALDO.LocalScript 
+	local script = Instance.new('LocalScript', RONALDO)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local jumpscareSound = Instance.new("Sound", workspace)
+		jumpscareSound.Name = "JumpscareSound"
+		jumpscareSound.Volume = 9999999999999999
+		jumpscareSound.Pitch = 0.75
+		jumpscareSound.SoundId = "rbxassetid://7681560017"
+	
+		local jumpscareGUI = Instance.new("ScreenGui", nil)
+		jumpscareGUI.Name = "Jumpscare"
+		local image = Instance.new("ImageLabel", jumpscareGUI)
+		image.Name = "JumpscareImage"
+		image.BackgroundColor3 = Color3.new(0, 0, 0)
+		image.BorderColor3 = Color3.new(255, 255, 255)
+		image.BorderSizePixel = 0
+		image.Size = UDim2.new(1, 0, 1, 0)
+		image.Image = "http://www.roblox.com/asset/?id=12603773584"
+		image.Active = true
+	
+		for i, c in pairs(game.Players:GetChildren()) do
+			local jumpscareClone = jumpscareGUI:Clone()
+			jumpscareClone.Parent = c.PlayerGui
+		end
+		jumpscareSound:Play()
+		wait(2)
+		jumpscareSound:Destroy()
+		for i, c in pairs(game.Players:GetChildren()) do
+			c.PlayerGui.Jumpscare:Destroy()
+		end
+	end)
+end
+coroutine.wrap(LEPPCZ_fake_script)()
+local function SWMSKK_fake_script() -- DiscoLIghts.LocalScript 
+	local script = Instance.new('LocalScript', DiscoLIghts)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Workspace = game:GetService("Workspace")
+		local RunService = game:GetService("RunService")
+	
+		-- Configuration
+		local COLORS = {Color3.new(1, 0, 0), Color3.new(0, 1, 0), Color3.new(0, 0, 1), Color3.new(1, 1, 0), Color3.new(0, 1, 1), Color3.new(1, 0, 1)}
+		local FLASH_INTERVAL = 0.2  -- Time interval between each flash
+		local LIGHT_RADIUS = 100  -- Radius around the center of the map where lights will be placed
+	
+		-- Function to create and position a light
+		local function createLight(position)
+			local light = Instance.new("PointLight")
+			light.Brightness = 5
+			light.Range = 20
+			light.Color = COLORS[math.random(#COLORS)]
+	
+			local part = Instance.new("Part")
+			part.Anchored = true
+			part.CanCollide = false
+			part.Size = Vector3.new(1, 1, 1)
+			part.Position = position
+			part.Transparency = 1
+			part.Parent = Workspace
+	
+			light.Parent = part
+	
+			return light
+		end
+	
+		-- Function to generate random positions around the center of the map
+		local function getRandomPosition(center, radius)
+			local angle = math.random() * 2 * math.pi
+			local distance = math.random() * radius
+			local x = center.X + math.cos(angle) * distance
+			local y = center.Y + math.random(-radius / 2, radius / 2)
+			local z = center.Z + math.sin(angle) * distance
+			return Vector3.new(x, y, z)
+		end
+	
+		-- Center of the map
+		local mapCenter = Workspace.Baseplate.Position
+	
+		-- Create initial lights
+		local lights = {}
+		for i = 1, 10 do
+			table.insert(lights, createLight(getRandomPosition(mapCenter, LIGHT_RADIUS)))
+		end
+	
+		-- Function to update light colors
+		local function updateLights()
+			for _, light in ipairs(lights) do
+				light.Color = COLORS[math.random(#COLORS)]
+			end
+		end
+	
+		-- Flash lights at regular intervals
+		RunService.Stepped:Connect(function()
+			updateLights()
+			wait(FLASH_INTERVAL)
+		end)
+	end)
+end
+coroutine.wrap(SWMSKK_fake_script)()
+local function SDFYTW_fake_script() -- GiantMode.LocalScript 
+	local script = Instance.new('LocalScript', GiantMode)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+	
+		-- Function to enlarge a player's character
+		local function enlargePlayer(player)
+			local character = player.Character
+			if not character then return end
+	
+			for _, part in pairs(character:GetChildren()) do
+				if part:IsA("BasePart") then
+					part.Size = part.Size * 5
+				end
+			end
+		end
+	
+		-- Enlarge all existing players
+		for _, player in pairs(Players:GetPlayers()) do
+			enlargePlayer(player)
+		end
+	
+		-- Enlarge new players when they join
+		Players.PlayerAdded:Connect(function(player)
+			player.CharacterAdded:Connect(function()
+				enlargePlayer(player)
+			end)
+		end)
+	end)
+end
+coroutine.wrap(SDFYTW_fake_script)()
+local function DWNJXU_fake_script() -- caipirina.LocalScript 
+	local script = Instance.new('LocalScript', caipirina)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- script is not fe only fe at backdoor executor
+		-- spooky scary skeletons edit
+		imageOne = "http://www.roblox.com/asset/?id=18208612737"
+		imageTwo = "http://www.roblox.com/asset/?id=18208619464"
+		imageThree = "http://www.roblox.com/asset/?id=18208623817"
+		imageFour = "http://www.roblox.com/asset/?id=18208631518"
+		imageFive = "http://www.roblox.com/asset/?id=18208635946"
+		imageSix = "http://www.roblox.com/asset/?id=18208641097"
+		imageSeven = "http://www.roblox.com/asset/?id=18208645936"
+		
+		Spooky = Instance.new("Sound", game.Workspace)
+		Spooky.Name = "Spooky"
+		Spooky.SoundId = "rbxassetid://4808613510"
+		Spooky.Volume = 1500
+		Spooky.Looped = true
+		Spooky:Play()
+		Sky = Instance.new("Sky", game.Lighting)
+		Sky.SkyboxBk = imageOne
+		Sky.SkyboxDn = imageOne
+		Sky.SkyboxFt = imageOne
+		Sky.SkyboxLf = imageOne
+		Sky.SkyboxRt = imageOne
+		Sky.SkyboxUp = imageOne
+		while true do
+			Sky.SkyboxBk = imageOne
+			Sky.SkyboxDn = imageOne
+			Sky.SkyboxFt = imageOne
+			Sky.SkyboxLf = imageOne
+			Sky.SkyboxRt = imageOne
+			Sky.SkyboxUp = imageOne
+			wait(0.25)
+			Sky.SkyboxBk = imageTwo
+			Sky.SkyboxDn = imageTwo
+			Sky.SkyboxFt = imageTwo
+			Sky.SkyboxLf = imageTwo
+			Sky.SkyboxRt = imageTwo
+			Sky.SkyboxUp = imageTwo
+			wait(0.25)
+			Sky.SkyboxBk = imageThree
+			Sky.SkyboxDn = imageThree
+			Sky.SkyboxFt = imageThree
+			Sky.SkyboxLf = imageThree
+			Sky.SkyboxRt = imageThree
+			Sky.SkyboxUp = imageThree
+			wait(0.25)
+			Sky.SkyboxBk = imageFour
+			Sky.SkyboxDn = imageFour
+			Sky.SkyboxFt = imageFour
+			Sky.SkyboxLf = imageFour
+			Sky.SkyboxRt = imageFour
+			Sky.SkyboxUp = imageFour
+			wait(0.25)
+			Sky.SkyboxBk = imageFive
+			Sky.SkyboxDn = imageFive
+			Sky.SkyboxFt = imageFive
+			Sky.SkyboxLf = imageFive
+			Sky.SkyboxRt = imageFive
+			Sky.SkyboxUp = imageFive
+			wait(0.25)
+			Sky.SkyboxBk = imageSix
+			Sky.SkyboxDn = imageSix
+			Sky.SkyboxFt = imageSix
+			Sky.SkyboxLf = imageSix
+			Sky.SkyboxRt = imageSix
+			Sky.SkyboxUp = imageSix
+			wait(0.25)
+			Sky.SkyboxBk = imageSeven
+			Sky.SkyboxDn = imageSeven
+			Sky.SkyboxFt = imageSeven
+			Sky.SkyboxLf = imageSeven
+			Sky.SkyboxRt = imageSeven
+			Sky.SkyboxUp = imageSeven
+			wait(0.25)
+		end
+	end)
+end
+coroutine.wrap(DWNJXU_fake_script)()
+local function GFLWDWG_fake_script() -- jumpscare2.LocalScript 
+	local script = Instance.new('LocalScript', jumpscare2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local jumpscareSound = Instance.new("Sound", workspace)
+		jumpscareSound.Name = "JumpscareSound"
+		jumpscareSound.Volume = 9999999999999999
+		jumpscareSound.Pitch = 0.75
+		jumpscareSound.SoundId = "rbxassetid://6646751775"
+	
+		local jumpscareGUI = Instance.new("ScreenGui", nil)
+		jumpscareGUI.Name = "Jumpscare"
+		local image = Instance.new("ImageLabel", jumpscareGUI)
+		image.Name = "JumpscareImage"
+		image.BackgroundColor3 = Color3.new(0, 0, 0)
+		image.BorderColor3 = Color3.new(255, 255, 255)
+		image.BorderSizePixel = 0
+		image.Size = UDim2.new(1, 0, 1, 0)
+		image.Image = "http://www.roblox.com/asset/?id=18213997018"
+		image.Active = true
+	
+		for i, c in pairs(game.Players:GetChildren()) do
+			local jumpscareClone = jumpscareGUI:Clone()
+			jumpscareClone.Parent = c.PlayerGui
+		end
+		jumpscareSound:Play()
+		wait(4)
+		jumpscareSound:Destroy()
+		for i, c in pairs(game.Players:GetChildren()) do
+			c.PlayerGui.Jumpscare:Destroy()
+		end
+	end)
+end
+coroutine.wrap(GFLWDWG_fake_script)()
+local function VGZFBW_fake_script() -- jumpscare.LocalScript 
+	local script = Instance.new('LocalScript', jumpscare)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local jumpscareSound = Instance.new("Sound", workspace)
+		jumpscareSound.Name = "JumpscareSound"
+		jumpscareSound.Volume = 9999999999999999
+		jumpscareSound.Pitch = 0.75
+		jumpscareSound.SoundId = "rbxassetid://6847929757"
+	
+		local jumpscareGUI = Instance.new("ScreenGui", nil)
+		jumpscareGUI.Name = "Jumpscare"
+		local image = Instance.new("ImageLabel", jumpscareGUI)
+		image.Name = "JumpscareImage"
+		image.BackgroundColor3 = Color3.new(0, 0, 0)
+		image.BorderColor3 = Color3.new(255, 255, 255)
+		image.BorderSizePixel = 0
+		image.Size = UDim2.new(1, 0, 1, 0)
+		image.Image = "http://www.roblox.com/asset/?id=18213993071"
+		image.Active = true
+	
+		for i, c in pairs(game.Players:GetChildren()) do
+			local jumpscareClone = jumpscareGUI:Clone()
+			jumpscareClone.Parent = c.PlayerGui
+		end
+		jumpscareSound:Play()
+		wait(10)
+		jumpscareSound:Destroy()
+		for i, c in pairs(game.Players:GetChildren()) do
+			c.PlayerGui.Jumpscare:Destroy()
+		end
+	end)
+end
+coroutine.wrap(VGZFBW_fake_script)()
+local function ZXIGUM_fake_script() -- decalspam_2.LocalScript 
+	local script = Instance.new('LocalScript', decalspam_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		local skyboxID = 16000894791
+		s.SkyboxBk = "http://www.roblox.com/asset/?id="..skyboxID
+		s.SkyboxDn = "http://www.roblox.com/asset/?id="..skyboxID
+		s.SkyboxFt = "http://www.roblox.com/asset/?id="..skyboxID
+		s.SkyboxLf = "http://www.roblox.com/asset/?id="..skyboxID
+		s.SkyboxRt = "http://www.roblox.com/asset/?id="..skyboxID
+		s.SkyboxUp = "http://www.roblox.com/asset/?id="..skyboxID
+		game.Lighting.TimeOfDay = 12
+	
+		decalID = 18213997018
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=18213997018"..decalID then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=18213997018"..decalID
+					Two.Texture = "http://www.roblox.com/asset/?id=18213997018"..decalID
+					Three.Texture = "http://www.roblox.com/asset/?id=18213997018"..decalID
+					Four.Texture = "http://www.roblox.com/asset/?id=18213997018"..decalID
+					Five.Texture = "http://www.roblox.com/asset/?id=18213997018"..decalID
+					Six.Texture = "http://www.roblox.com/asset/?id=18213997018="..decalID
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	
+		local playerLeaderstats = {}
+		for i, v in pairs(game.Players:GetChildren()) do
+			table.insert(playerLeaderstats, v)
+		end
+		for i, v in pairs(playerLeaderstats) do
+			pe = Instance.new("ParticleEmitter",v.Character.Torso)
+			pe.Texture = "http://www.roblox.com/asset/?id=18213997018"
+			pe.VelocitySpread = 50
+			se = Instance.new("ParticleEmitter",v.Character.Torso)
+			se.Texture = "http://www.roblox.com/asset/?id=18213997018"
+			se.VelocitySpread = 50
+			fe = Instance.new("ParticleEmitter",v.Character.Torso)
+			fe.Texture = "http://www.roblox.com/asset/?id=18213997018"
+			fe.VelocitySpread = 50
+		end
+	
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.className == "Sound" then
+				v:Stop()
+				v:Remove()	
+			end	
+		end
+		
+		local h = Instance.new("Hint", workspace)
+		h.Text = "I AM FUCKING THIS IS GAME LMFAO!"
+	end)
+end
+coroutine.wrap(ZXIGUM_fake_script)()
+local function MLKTHSC_fake_script() -- Playersdecal.LocalScript 
+	local script = Instance.new('LocalScript', Playersdecal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+	
+		-- Configuration
+		local DECAL_SIZE = Vector3.new(10, 10, 10) -- Size in studs (1000 cm = 10 studs)
+		local DECAL_TEXTURE = "http://www.roblox.com/asset/?id=18213997018" -- Replace with your decal texture ID
+		local DROP_INTERVAL = 1 -- Time in seconds between decal drops
+	
+		-- Function to create and drop a decal at a player's position
+		local function dropDecal(player)
+			if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+				local humanoidRootPart = player.Character.HumanoidRootPart
+	
+				-- Create the decal part
+				local decalPart = Instance.new("Part")
+				decalPart.Size = DECAL_SIZE
+				decalPart.Position = humanoidRootPart.Position
+				decalPart.Anchored = false
+				decalPart.CanCollide = false
+				decalPart.Parent = workspace
+	
+				-- Create the decal
+				local decal = Instance.new("Decal")
+				decal.Texture = DECAL_TEXTURE
+				decal.Face = Enum.NormalId.Top
+				decal.Parent = decalPart
+			end
+		end
+	
+		-- Function to periodically drop decals from players
+		local function startDroppingDecals()
+			while true do
+				for _, player in pairs(Players:GetPlayers()) do
+					dropDecal(player)
+				end
+				wait(DROP_INTERVAL)
+			end
+		end
+	
+		-- Start the decal dropping process
+		startDroppingDecals()
+	end)
+end
+coroutine.wrap(MLKTHSC_fake_script)()
+local function RSXEDHU_fake_script() -- flipworkspace.LocalScript 
+	local script = Instance.new('LocalScript', flipworkspace)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Workspace = game:GetService("Workspace")
+		local Players = game:GetService("Players")
+		local ExplosionRadius = 10
+		local ExplosionPower = 100
+	
+		local function createExplosion(position)
+			local explosion = Instance.new("Explosion")
+			explosion.Position = position
+			explosion.BlastRadius = ExplosionRadius
+			explosion.BlastPressure = ExplosionPower
+			explosion.Parent = Workspace
+		end
+	
+		local function flipWorkspace()
+			-- Flip all parts in the workspace
+			for _, part in ipairs(Workspace:GetDescendants()) do
+				if part:IsA("BasePart") and not part.Anchored then
+					part.CFrame = part.CFrame * CFrame.Angles(math.rad(180), 0, 0)
+				end
+			end
+	
+			-- Make all players fall and explode
+			for _, player in ipairs(Players:GetPlayers()) do
+				if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+					local humanoidRootPart = player.Character.HumanoidRootPart
+					humanoidRootPart.Anchored = false
+					createExplosion(humanoidRootPart.Position)
+				end
+			end
+		end
+	
+		-- Trigger the flip and explosion
+		flipWorkspace()
+	end)
+end
+coroutine.wrap(RSXEDHU_fake_script)()
+local function OORMO_fake_script() -- upsidedowncamera.LocalScript 
+	local script = Instance.new('LocalScript', upsidedowncamera)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Place this script in StarterPlayerScripts as a LocalScript
+		local Players = game:GetService("Players")
+		local RunService = game:GetService("RunService")
+	
+		local player = Players.LocalPlayer
+		local camera = game.Workspace.CurrentCamera
+	
+		-- Function to make the camera upside down
+		local function updateCamera()
+			while true do
+				camera.CFrame = camera.CFrame * CFrame.Angles(0, 0, math.rad(180))
+				RunService.RenderStepped:Wait()
+			end
+		end
+	
+		-- Start updating the camera
+		updateCamera()
+	end)
+end
+coroutine.wrap(OORMO_fake_script)()
+local function VQHJJUH_fake_script() -- freezeall.LocalScript 
+	local script = Instance.new('LocalScript', freezeall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+		local Workspace = game:GetService("Workspace")
+	
+		local ExplosionRadius = 10
+		local ExplosionPower = 100
+	
+		-- Function to freeze all players
+		local function freezeAllPlayers()
+			for _, player in pairs(Players:GetPlayers()) do
+				if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+					local humanoidRootPart = player.Character.HumanoidRootPart
+					humanoidRootPart.Anchored = true
+				end
+			end
+		end
+	
+		-- Function to unfreeze and explode all players
+		local function explodeAllPlayers()
+			for _, player in pairs(Players:GetPlayers()) do
+				if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+					local humanoidRootPart = player.Character.HumanoidRootPart
+					humanoidRootPart.Anchored = false
+					-- Create explosion
+					local explosion = Instance.new("Explosion")
+					explosion.Position = humanoidRootPart.Position
+					explosion.BlastRadius = ExplosionRadius
+					explosion.BlastPressure = ExplosionPower
+					explosion.Parent = Workspace
+				end
+			end
+		end
+	
+		-- Freeze all players
+		freezeAllPlayers()
+	
+		-- Wait 5 seconds, then explode all players
+		wait(5)
+		explodeAllPlayers()
+	end)
+end
+coroutine.wrap(VQHJJUH_fake_script)()
+local function TPKAB_fake_script() -- KICKALL.LocalScript 
+	local script = Instance.new('LocalScript', KICKALL)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+	
+		-- Function to disconnect all players
+		local function disconnectAllPlayers()
+			for _, player in ipairs(Players:GetPlayers()) do
+				-- Disconnect the player
+				player:Kick("fak u")
+			end
+		end
+	
+		-- Call the function to disconnect all players
+		disconnectAllPlayers()
+	end)
+end
+coroutine.wrap(TPKAB_fake_script)()
+local function DAKJ_fake_script() -- Disco.LocalScript 
+	local script = Instance.new('LocalScript', Disco)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+		local Lighting = game:GetService("Lighting")
+		local RunService = game:GetService("RunService")
+	
+		-- Function to generate random color
+		local function getRandomColor()
+			return Color3.fromRGB(math.random(0, 255), math.random(0, 255), math.random(0, 255))
+		end
+	
+		-- Function to apply disco effect to a part
+		local function applyDiscoEffect(part)
+			local colorTweenInfo = TweenInfo.new(
+				2, -- Duration
+				Enum.EasingStyle.Linear, -- Easing style
+				Enum.EasingDirection.InOut, -- Easing direction
+				-1, -- Number of repetitions (-1 for infinite)
+				true -- Reverses after completing
+			)
+	
+			-- Tween the color of the part
+			local tween = game:GetService("TweenService"):Create(part, colorTweenInfo, {Color = getRandomColor()})
+			tween:Play()
+		end
+	
+		-- Function to apply disco effect to players' characters
+		local function applyDiscoToPlayers()
+			for _, player in ipairs(Players:GetPlayers()) do
+				if player.Character then
+					local character = player.Character
+					for _, part in ipairs(character:GetDescendants()) do
+						if part:IsA("BasePart") then
+							applyDiscoEffect(part)
+						end
+					end
+				end
+			end
+		end
+	
+		-- Function to continuously apply disco effect
+		local function startDiscoEffect()
+			-- Apply to skybox
+			Lighting.Ambient = getRandomColor()
+			Lighting.OutdoorAmbient = getRandomColor()
+	
+			-- Apply to workspace
+			for _, part in ipairs(workspace:GetDescendants()) do
+				if part:IsA("BasePart") then
+					applyDiscoEffect(part)
+				end
+			end
+	
+			-- Apply to players' characters
+			applyDiscoToPlayers()
+		end
+	
+		-- Start the disco effect
+		startDiscoEffect()
+	
+		-- Continuously update the disco effect
+		RunService.Stepped:Connect(function()
+			startDiscoEffect()
+		end)
+	end)
+end
+coroutine.wrap(DAKJ_fake_script)()
