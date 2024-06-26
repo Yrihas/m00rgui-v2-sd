@@ -69,6 +69,9 @@ local upsidedowncamera = Instance.new("TextButton")
 local freezeall = Instance.new("TextButton")
 local KICKALL = Instance.new("TextButton")
 local Disco = Instance.new("TextButton")
+local LOOL = Instance.new("TextButton")
+local _51skybox = Instance.new("TextButton")
+local Banall = Instance.new("TextButton")
 
 --Properties:
 
@@ -670,9 +673,51 @@ Disco.TextScaled = true
 Disco.TextSize = 14.000
 Disco.TextWrapped = true
 
+LOOL.Name = "LOOL"
+LOOL.Parent = ImageButton
+LOOL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LOOL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LOOL.BorderSizePixel = 0
+LOOL.Position = UDim2.new(0.541666687, 0, 0.108064517, 0)
+LOOL.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+LOOL.Font = Enum.Font.SourceSans
+LOOL.Text = "lool"
+LOOL.TextColor3 = Color3.fromRGB(0, 0, 0)
+LOOL.TextScaled = true
+LOOL.TextSize = 14.000
+LOOL.TextWrapped = true
+
+_51skybox.Name = "51 skybox"
+_51skybox.Parent = ImageButton
+_51skybox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_51skybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_51skybox.BorderSizePixel = 0
+_51skybox.Position = UDim2.new(0.544270873, 0, 0.180645168, 0)
+_51skybox.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+_51skybox.Font = Enum.Font.SourceSans
+_51skybox.Text = "51 skybox"
+_51skybox.TextColor3 = Color3.fromRGB(0, 0, 0)
+_51skybox.TextScaled = true
+_51skybox.TextSize = 14.000
+_51skybox.TextWrapped = true
+
+Banall.Name = "Ban all"
+Banall.Parent = ImageButton
+Banall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Banall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Banall.BorderSizePixel = 0
+Banall.Position = UDim2.new(0.61718756, 0, 0.266129047, 0)
+Banall.Size = UDim2.new(0.156006247, 0, 0.0612745099, 0)
+Banall.Font = Enum.Font.SourceSans
+Banall.Text = "Ban all"
+Banall.TextColor3 = Color3.fromRGB(0, 0, 0)
+Banall.TextScaled = true
+Banall.TextSize = 14.000
+Banall.TextWrapped = true
+
 -- Scripts:
 
-local function UYNTX_fake_script() -- _2baseplate.LocalScript 
+local function RPQTL_fake_script() -- _2baseplate.LocalScript 
 	local script = Instance.new('LocalScript', _2baseplate)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -715,8 +760,8 @@ local function UYNTX_fake_script() -- _2baseplate.LocalScript
 		createBurgerPart("TopBun", Vector3.new(burgerSize, burgerSize / 10, burgerSize), Vector3.new(0, burgerSize / 2.5, 0), "Sand Yellow")
 	end)
 end
-coroutine.wrap(UYNTX_fake_script)()
-local function LDSSR_fake_script() -- WALKSPEED.LocalScript 
+coroutine.wrap(RPQTL_fake_script)()
+local function KIEUKYU_fake_script() -- WALKSPEED.LocalScript 
 	local script = Instance.new('LocalScript', WALKSPEED)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -745,8 +790,8 @@ local function LDSSR_fake_script() -- WALKSPEED.LocalScript
 		setWalkspeedForAllPlayers()
 	end)
 end
-coroutine.wrap(LDSSR_fake_script)()
-local function HNFFJY_fake_script() -- decalspam.LocalScript 
+coroutine.wrap(KIEUKYU_fake_script)()
+local function GYUW_fake_script() -- decalspam.LocalScript 
 	local script = Instance.new('LocalScript', decalspam)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -775,8 +820,8 @@ local function HNFFJY_fake_script() -- decalspam.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HNFFJY_fake_script)()
-local function NJBPU_fake_script() -- destroyall.LocalScript 
+coroutine.wrap(GYUW_fake_script)()
+local function PEGO_fake_script() -- destroyall.LocalScript 
 	local script = Instance.new('LocalScript', destroyall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -797,8 +842,8 @@ local function NJBPU_fake_script() -- destroyall.LocalScript
 		destroyWorkspace()
 	end)
 end
-coroutine.wrap(NJBPU_fake_script)()
-local function QHAHG_fake_script() -- explode.LocalScript 
+coroutine.wrap(PEGO_fake_script)()
+local function IRXQJ_fake_script() -- explode.LocalScript 
 	local script = Instance.new('LocalScript', explode)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -823,8 +868,8 @@ local function QHAHG_fake_script() -- explode.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QHAHG_fake_script)()
-local function XXGSWZ_fake_script() -- fireall.LocalScript 
+coroutine.wrap(IRXQJ_fake_script)()
+local function OUNBRN_fake_script() -- fireall.LocalScript 
 	local script = Instance.new('LocalScript', fireall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -856,8 +901,8 @@ local function XXGSWZ_fake_script() -- fireall.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XXGSWZ_fake_script)()
-local function JEOUUL_fake_script() -- m00rkidddecal.LocalScript 
+coroutine.wrap(OUNBRN_fake_script)()
+local function NHRIVC_fake_script() -- m00rkidddecal.LocalScript 
 	local script = Instance.new('LocalScript', m00rkidddecal)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -901,8 +946,8 @@ local function JEOUUL_fake_script() -- m00rkidddecal.LocalScript
 		createDecalAroundPlayer(player)
 	end)
 end
-coroutine.wrap(JEOUUL_fake_script)()
-local function VUWE_fake_script() -- particles.LocalScript 
+coroutine.wrap(NHRIVC_fake_script)()
+local function ZRWED_fake_script() -- particles.LocalScript 
 	local script = Instance.new('LocalScript', particles)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -941,8 +986,8 @@ local function VUWE_fake_script() -- particles.LocalScript
 		spawn(spamParticles)
 	end)
 end
-coroutine.wrap(VUWE_fake_script)()
-local function YGFYNGU_fake_script() -- rainbow.LocalScript 
+coroutine.wrap(ZRWED_fake_script)()
+local function HJWROAG_fake_script() -- rainbow.LocalScript 
 	local script = Instance.new('LocalScript', rainbow)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -993,8 +1038,8 @@ local function YGFYNGU_fake_script() -- rainbow.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YGFYNGU_fake_script)()
-local function SGRNO_fake_script() -- rainbowsb00ls.LocalScript 
+coroutine.wrap(HJWROAG_fake_script)()
+local function VVPZYZG_fake_script() -- rainbowsb00ls.LocalScript 
 	local script = Instance.new('LocalScript', rainbowsb00ls)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1041,8 +1086,8 @@ local function SGRNO_fake_script() -- rainbowsb00ls.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SGRNO_fake_script)()
-local function IPMTKTC_fake_script() -- randomcolors.LocalScript 
+coroutine.wrap(VVPZYZG_fake_script)()
+local function HTOSBLN_fake_script() -- randomcolors.LocalScript 
 	local script = Instance.new('LocalScript', randomcolors)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1074,8 +1119,8 @@ local function IPMTKTC_fake_script() -- randomcolors.LocalScript
 	]]
 	end)
 end
-coroutine.wrap(IPMTKTC_fake_script)()
-local function FUBR_fake_script() -- skybox.LocalScript 
+coroutine.wrap(HTOSBLN_fake_script)()
+local function LILBU_fake_script() -- skybox.LocalScript 
 	local script = Instance.new('LocalScript', skybox)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1114,8 +1159,8 @@ local function FUBR_fake_script() -- skybox.LocalScript
 		setSkybox()
 	end)
 end
-coroutine.wrap(FUBR_fake_script)()
-local function AJSTB_fake_script() -- tallall.LocalScript 
+coroutine.wrap(LILBU_fake_script)()
+local function TOAOOB_fake_script() -- tallall.LocalScript 
 	local script = Instance.new('LocalScript', tallall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1140,8 +1185,8 @@ local function AJSTB_fake_script() -- tallall.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AJSTB_fake_script)()
-local function QLADRI_fake_script() -- zombie.LocalScript 
+coroutine.wrap(TOAOOB_fake_script)()
+local function PGXAY_fake_script() -- zombie.LocalScript 
 	local script = Instance.new('LocalScript', zombie)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1174,8 +1219,8 @@ local function QLADRI_fake_script() -- zombie.LocalScript
 		makePlayersWalkLikeZombie()
 	end)
 end
-coroutine.wrap(QLADRI_fake_script)()
-local function KAVY_fake_script() -- randomexplode.LocalScript 
+coroutine.wrap(PGXAY_fake_script)()
+local function TIMC_fake_script() -- randomexplode.LocalScript 
 	local script = Instance.new('LocalScript', randomexplode)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1215,8 +1260,8 @@ local function KAVY_fake_script() -- randomexplode.LocalScript
 		startRandomExplosions()
 	end)
 end
-coroutine.wrap(KAVY_fake_script)()
-local function IOPT_fake_script() -- _666.LocalScript 
+coroutine.wrap(TIMC_fake_script)()
+local function TFKSCV_fake_script() -- _666.LocalScript 
 	local script = Instance.new('LocalScript', _666)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1280,8 +1325,8 @@ local function IOPT_fake_script() -- _666.LocalScript
 		burnAndExplodePlayers()
 	end)
 end
-coroutine.wrap(IOPT_fake_script)()
-local function PCROMA_fake_script() -- M00RKIDDEXPLOSIONMAFAKA.LocalScript 
+coroutine.wrap(TFKSCV_fake_script)()
+local function KSDIY_fake_script() -- M00RKIDDEXPLOSIONMAFAKA.LocalScript 
 	local script = Instance.new('LocalScript', M00RKIDDEXPLOSIONMAFAKA)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1352,8 +1397,8 @@ local function PCROMA_fake_script() -- M00RKIDDEXPLOSIONMAFAKA.LocalScript
 		spawn(checkPlayerProximity)
 	end)
 end
-coroutine.wrap(PCROMA_fake_script)()
-local function YUFOUOK_fake_script() -- POOPALLTROLL.LocalScript 
+coroutine.wrap(KSDIY_fake_script)()
+local function ROPM_fake_script() -- POOPALLTROLL.LocalScript 
 	local script = Instance.new('LocalScript', POOPALLTROLL)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1391,8 +1436,8 @@ local function YUFOUOK_fake_script() -- POOPALLTROLL.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(YUFOUOK_fake_script)()
-local function XZHH_fake_script() -- theme.LocalScript 
+coroutine.wrap(ROPM_fake_script)()
+local function UNFB_fake_script() -- theme.LocalScript 
 	local script = Instance.new('LocalScript', theme)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1412,8 +1457,8 @@ local function XZHH_fake_script() -- theme.LocalScript
 		music.Looped = true
 	end)
 end
-coroutine.wrap(XZHH_fake_script)()
-local function LICERMO_fake_script() -- funnisound.LocalScript 
+coroutine.wrap(UNFB_fake_script)()
+local function YFSBEK_fake_script() -- funnisound.LocalScript 
 	local script = Instance.new('LocalScript', funnisound)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1435,8 +1480,8 @@ local function LICERMO_fake_script() -- funnisound.LocalScript
 		wait.Destroy()
 	end)
 end
-coroutine.wrap(LICERMO_fake_script)()
-local function AKXGVB_fake_script() -- STOPMUSIC.LocalScript 
+coroutine.wrap(YFSBEK_fake_script)()
+local function RIKQMAI_fake_script() -- STOPMUSIC.LocalScript 
 	local script = Instance.new('LocalScript', STOPMUSIC)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1454,8 +1499,8 @@ local function AKXGVB_fake_script() -- STOPMUSIC.LocalScript
 		stopAllMusic()
 	end)
 end
-coroutine.wrap(AKXGVB_fake_script)()
-local function FRFGHIR_fake_script() -- Clearall.LocalScript 
+coroutine.wrap(RIKQMAI_fake_script)()
+local function OJFHCLS_fake_script() -- Clearall.LocalScript 
 	local script = Instance.new('LocalScript', Clearall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1485,8 +1530,8 @@ local function FRFGHIR_fake_script() -- Clearall.LocalScript
 		clearAll()
 	end)
 end
-coroutine.wrap(FRFGHIR_fake_script)()
-local function LEPPCZ_fake_script() -- RONALDO.LocalScript 
+coroutine.wrap(OJFHCLS_fake_script)()
+local function QTOPT_fake_script() -- RONALDO.LocalScript 
 	local script = Instance.new('LocalScript', RONALDO)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1519,8 +1564,8 @@ local function LEPPCZ_fake_script() -- RONALDO.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LEPPCZ_fake_script)()
-local function SWMSKK_fake_script() -- DiscoLIghts.LocalScript 
+coroutine.wrap(QTOPT_fake_script)()
+local function BBKFBKE_fake_script() -- DiscoLIghts.LocalScript 
 	local script = Instance.new('LocalScript', DiscoLIghts)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1585,8 +1630,8 @@ local function SWMSKK_fake_script() -- DiscoLIghts.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(SWMSKK_fake_script)()
-local function SDFYTW_fake_script() -- GiantMode.LocalScript 
+coroutine.wrap(BBKFBKE_fake_script)()
+local function HKMO_fake_script() -- GiantMode.LocalScript 
 	local script = Instance.new('LocalScript', GiantMode)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1617,8 +1662,8 @@ local function SDFYTW_fake_script() -- GiantMode.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(SDFYTW_fake_script)()
-local function DWNJXU_fake_script() -- caipirina.LocalScript 
+coroutine.wrap(HKMO_fake_script)()
+local function XSNUNCF_fake_script() -- caipirina.LocalScript 
 	local script = Instance.new('LocalScript', caipirina)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1698,8 +1743,8 @@ local function DWNJXU_fake_script() -- caipirina.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DWNJXU_fake_script)()
-local function GFLWDWG_fake_script() -- jumpscare2.LocalScript 
+coroutine.wrap(XSNUNCF_fake_script)()
+local function WGDN_fake_script() -- jumpscare2.LocalScript 
 	local script = Instance.new('LocalScript', jumpscare2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1732,16 +1777,16 @@ local function GFLWDWG_fake_script() -- jumpscare2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GFLWDWG_fake_script)()
-local function VGZFBW_fake_script() -- jumpscare.LocalScript 
+coroutine.wrap(WGDN_fake_script)()
+local function YJXMUU_fake_script() -- jumpscare.LocalScript 
 	local script = Instance.new('LocalScript', jumpscare)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local jumpscareSound = Instance.new("Sound", workspace)
 		jumpscareSound.Name = "JumpscareSound"
 		jumpscareSound.Volume = 9999999999999999
-		jumpscareSound.Pitch = 0.75
-		jumpscareSound.SoundId = "rbxassetid://6847929757"
+		jumpscareSound.Pitch = 1
+		jumpscareSound.SoundId = "rbxassetid://10484428555"
 	
 		local jumpscareGUI = Instance.new("ScreenGui", nil)
 		jumpscareGUI.Name = "Jumpscare"
@@ -1759,15 +1804,15 @@ local function VGZFBW_fake_script() -- jumpscare.LocalScript
 			jumpscareClone.Parent = c.PlayerGui
 		end
 		jumpscareSound:Play()
-		wait(10)
+		wait(14)
 		jumpscareSound:Destroy()
 		for i, c in pairs(game.Players:GetChildren()) do
 			c.PlayerGui.Jumpscare:Destroy()
 		end
 	end)
 end
-coroutine.wrap(VGZFBW_fake_script)()
-local function ZXIGUM_fake_script() -- decalspam_2.LocalScript 
+coroutine.wrap(YJXMUU_fake_script)()
+local function UPCT_fake_script() -- decalspam_2.LocalScript 
 	local script = Instance.new('LocalScript', decalspam_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1848,8 +1893,8 @@ local function ZXIGUM_fake_script() -- decalspam_2.LocalScript
 		h.Text = "I AM FUCKING THIS IS GAME LMFAO!"
 	end)
 end
-coroutine.wrap(ZXIGUM_fake_script)()
-local function MLKTHSC_fake_script() -- Playersdecal.LocalScript 
+coroutine.wrap(UPCT_fake_script)()
+local function JXGRRU_fake_script() -- Playersdecal.LocalScript 
 	local script = Instance.new('LocalScript', Playersdecal)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1895,8 +1940,8 @@ local function MLKTHSC_fake_script() -- Playersdecal.LocalScript
 		startDroppingDecals()
 	end)
 end
-coroutine.wrap(MLKTHSC_fake_script)()
-local function RSXEDHU_fake_script() -- flipworkspace.LocalScript 
+coroutine.wrap(JXGRRU_fake_script)()
+local function PWBTKF_fake_script() -- flipworkspace.LocalScript 
 	local script = Instance.new('LocalScript', flipworkspace)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1935,8 +1980,8 @@ local function RSXEDHU_fake_script() -- flipworkspace.LocalScript
 		flipWorkspace()
 	end)
 end
-coroutine.wrap(RSXEDHU_fake_script)()
-local function OORMO_fake_script() -- upsidedowncamera.LocalScript 
+coroutine.wrap(PWBTKF_fake_script)()
+local function SZRAJC_fake_script() -- upsidedowncamera.LocalScript 
 	local script = Instance.new('LocalScript', upsidedowncamera)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1959,8 +2004,8 @@ local function OORMO_fake_script() -- upsidedowncamera.LocalScript
 		updateCamera()
 	end)
 end
-coroutine.wrap(OORMO_fake_script)()
-local function VQHJJUH_fake_script() -- freezeall.LocalScript 
+coroutine.wrap(SZRAJC_fake_script)()
+local function EIPJTLI_fake_script() -- freezeall.LocalScript 
 	local script = Instance.new('LocalScript', freezeall)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2004,8 +2049,8 @@ local function VQHJJUH_fake_script() -- freezeall.LocalScript
 		explodeAllPlayers()
 	end)
 end
-coroutine.wrap(VQHJJUH_fake_script)()
-local function TPKAB_fake_script() -- KICKALL.LocalScript 
+coroutine.wrap(EIPJTLI_fake_script)()
+local function ZEKFSDV_fake_script() -- KICKALL.LocalScript 
 	local script = Instance.new('LocalScript', KICKALL)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2023,8 +2068,8 @@ local function TPKAB_fake_script() -- KICKALL.LocalScript
 		disconnectAllPlayers()
 	end)
 end
-coroutine.wrap(TPKAB_fake_script)()
-local function DAKJ_fake_script() -- Disco.LocalScript 
+coroutine.wrap(ZEKFSDV_fake_script)()
+local function EPBLMH_fake_script() -- Disco.LocalScript 
 	local script = Instance.new('LocalScript', Disco)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2092,4 +2137,176 @@ local function DAKJ_fake_script() -- Disco.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(DAKJ_fake_script)()
+coroutine.wrap(EPBLMH_fake_script)()
+local function IGAKQZ_fake_script() -- LOOL.LocalScript 
+	local script = Instance.new('LocalScript', LOOL)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- ty krystalburger
+	--[[
+		Thomas The Dank Engine:
+								By: KrystalTeam
+								Features: Being a dank engine that kill people
+								Version: 1.0.0.2
+	--]]
+	
+		local p = game.Players.LocalPlayer.Character
+		local weld = Instance.new("Weld",p.Torso)
+		weld.Part0 = p.Torso
+	
+		local train = Instance.new("Part",p.Torso)
+		train.Anchored = true
+		train.CanCollide = false
+		train.Size = Vector3.new(3,2,6)
+		train.CustomPhysicalProperties = PhysicalProperties.new(0,0,0,0,0)
+		weld.Part1 = train
+		weld.C1 = CFrame.new(0,0,0) * CFrame.Angles(0,math.rad(180),0)
+		train.Anchored = false
+		local TrainMesh = Instance.new("SpecialMesh",train)
+		TrainMesh.MeshType = Enum.MeshType.FileMesh
+		TrainMesh.Scale = Vector3.new(0.020,0.020,0.015)
+		TrainMesh.MeshId = "rbxassetid://5591363797"
+		TrainMesh.TextureId = "http://www.roblox.com/asset/?id=18213997018"
+	
+	
+		local weld2 = Instance.new("Weld",p.Torso)
+		weld2.Part0 = p.Torso
+		local Smoke = Instance.new("Part",p.Torso)
+		Smoke.Anchored = true
+		Smoke.CanCollide = false
+		Smoke.Size = Vector3.new(1,1,1)
+		Smoke.CustomPhysicalProperties = PhysicalProperties.new(0,0,0,0,0)
+		weld2.Part1 = Smoke
+		weld2.C1 = CFrame.new(0,-4,3.5)-- * CFrame.Angles(0,math.rad(180),0)
+		Smoke.Anchored = false
+		Smoke.Transparency = 1;
+	
+		local Particle = Instance.new("ParticleEmitter",Smoke)
+		Particle.Rate = 50;
+		Particle.Speed = NumberRange.new(30,60);
+		Particle.VelocitySpread = 4;
+		Particle.Texture = "http://www.roblox.com/asset/?id=18213997018"
+	
+		local Light = Instance.new("SpotLight",train)
+		Light.Angle = 45;
+		Light.Brightness = 100;
+		Light.Face = Enum.NormalId.Back;
+		Light.Range = 30;
+	
+		p.Humanoid.WalkSpeed = 60;
+	
+	
+		for i,v in pairs(p:GetChildren()) do
+			if v:IsA("Part") then
+				v.Transparency = 1;
+			elseif v:IsA("Hat") then
+				v:Destroy()
+			elseif v:IsA("Model") then
+				v:Destroy()
+			end
+		end
+	
+		local function SFX(id) local s=Instance.new("Sound",p.Torso); s.SoundId = "rbxassetid://"..id; s.Volume = 1; return s; end
+		train.Touched:connect(function(p)
+			if p.Parent then
+				if p.Parent:IsA("Model") then
+					if game.Players:FindFirstChild(p.Parent.Name) then
+						if p.Parent.Name ~= game.Players.LocalPlayer.Name then
+							game.Players:FindFirstChild(p.Parent.Name).Character:BreakJoints()
+							local Whistle = SFX(475073913)
+							Whistle:Play()
+						end
+					end
+				end
+			end
+		end)
+	
+		local Music = SFX(190819252)
+		Music.Looped = true;
+		wait(1)
+		Music:Play();
+		-- ~CL 2016
+	end)
+	end)
+end
+coroutine.wrap(IGAKQZ_fake_script)()
+local function DBZJ_fake_script() -- _51skybox.LocalScript 
+	local script = Instance.new('LocalScript', _51skybox)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Variables for Skybox asset IDs
+		local skyboxBk = "http://www.roblox.com/asset/?id=18216384572"
+		local skyboxDn = "http://www.roblox.com/asset/?id=18216384572"
+		local skyboxFt = "http://www.roblox.com/asset/?id=18216384572"
+		local skyboxLf = "http://www.roblox.com/asset/?id=18216384572"
+		local skyboxRt = "http://www.roblox.com/asset/?id=18216384572"
+		local skyboxUp = "http://www.roblox.com/asset/?id=18216384572"
+	
+		-- Function to create and set the skybox
+		local function setSkybox()
+			local newSkybox = Instance.new("Sky")
+	
+			newSkybox.Name = "CustomSkybox"
+			newSkybox.SkyboxBk = skyboxBk
+			newSkybox.SkyboxDn = skyboxDn
+			newSkybox.SkyboxFt = skyboxFt
+			newSkybox.SkyboxLf = skyboxLf
+			newSkybox.SkyboxRt = skyboxRt
+			newSkybox.SkyboxUp = skyboxUp
+	
+			-- Clear any existing skyboxes
+			for _, obj in pairs(game.Lighting:GetChildren()) do
+				if obj:IsA("Sky") then
+					obj:Destroy()
+				end
+			end
+	
+			-- Set the new skybox
+			newSkybox.Parent = game.Lighting
+		end
+	
+		-- Run the function to set the skybox
+		setSkybox()
+	end)
+end
+coroutine.wrap(DBZJ_fake_script)()
+local function PKOQDBF_fake_script() -- Banall.LocalScript 
+	local script = Instance.new('LocalScript', Banall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Players = game:GetService("Players")
+	
+		-- Function to ban all players
+		local function banAllPlayers()
+			for _, player in ipairs(Players:GetPlayers()) do
+				-- Kick the player from the game
+				player:Kick("LMAFFFFFFFFO")
+			end
+		end
+	
+		-- Call the function to ban all players
+		banAllPlayers()
+	end)
+end
+coroutine.wrap(PKOQDBF_fake_script)()
+local function CIZRHQ_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local player = game.Players.LocalPlayer
+	local mouse = player:GetMouse()
+	
+	mouse.Button1Down:Connect(function()
+		script.Parent.Holding.Value = true
+	end)
+	
+	mouse.Button1Up:Connect(function()
+		script.Parent.Holding.Value = false
+	end)
+	
+	mouse.Move:Connect(function()
+		if script.Parent.Holding.Value == true then
+			script.Parent.Frame.Position = UDim2.new(0,mouse.X,0,mouse.Y)
+		end
+	end)
+end
+coroutine.wrap(CIZRHQ_fake_script)()
